@@ -1,14 +1,20 @@
 import logging
 import os
 import re
+import csv
 from flask import Flask, request
 from datetime import date
 import telegram
 import telebot
+import asyncio
+from telethon import TelegramClient
 from telebot import types
 import goslate
 from dotenv import load_dotenv
 load_dotenv()
+
+api_id = os.getenv('API_ID') # Input your api_id here
+api_hash = os.getenv('API_HASH') # Input your api_hash here
 
 from models import User
 
@@ -20,11 +26,10 @@ LANGUAGE = user.language
 # LANGUAGE = os.getenv("LANGUAGE")
 translator = goslate.Goslate()
 
-# Logging Setup
-logging.basicConfig(
-    format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
-    level=logging.WARNING
-)
+## Setup logs file for debugging
+logger = telebot.logger
+telebot.logger.setLevel(logging.DEBUG)
+logging.basicConfig(filename="extract.log", format='%(levelname)s: %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S')
 
 TOKEN = os.getenv('TOKEN')
 
@@ -33,3 +38,17 @@ SERVER_URL = os.getenv("SERVER_URL")
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
+
+
+GROUP = os.getenv('GROUP')
+
+
+## Connection of all the integrated APIs
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+client = TelegramClient("session", api_id=api_id, api_hash=api_hash, loop=loop)
+client.start() # Starting Telegram Bot API
+
+
+
+fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'User Status']

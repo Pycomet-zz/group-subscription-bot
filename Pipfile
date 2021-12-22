@@ -9,6 +9,7 @@ python-telegram-bot = "*"
 goslate = "*"
 python-dotenv = "*"
 pytelegrambotapi = "*"
+telethon = "*"
 
 [dev-packages]
 
