@@ -10,6 +10,7 @@ goslate = "*"
 python-dotenv = "*"
 pytelegrambotapi = "*"
 telethon = "*"
+flask-apscheduler = "*"
 
 [dev-packages]
 

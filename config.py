@@ -3,6 +3,9 @@ import os
 import re
 import csv
 from flask import Flask, request
+from flask_apscheduler import APScheduler
+from telethon.tl.functions.channels import InviteToChannelRequest
+from telethon.tl.functions.messages import DeleteChatUserRequest
 from datetime import date
 import telegram
 import telebot
@@ -36,10 +39,6 @@ TOKEN = os.getenv('TOKEN')
 DEBUG = True
 SERVER_URL = os.getenv("SERVER_URL")
 
-bot = telebot.TeleBot(TOKEN)
-app = Flask(__name__)
-
-
 GROUP = os.getenv('GROUP')
 
 
@@ -50,5 +49,16 @@ client = TelegramClient("session", api_id=api_id, api_hash=api_hash, loop=loop)
 client.start() # Starting Telegram Bot API
 
 
-
 fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'User Status']
+
+class Config:
+    SCHEDULER_API_ENABLED = True
+
+scheduler = APScheduler()
+
+
+bot = telebot.TeleBot(TOKEN)
+app = Flask(__name__)
+app.config.from_object(Config())
+scheduler.init_app(app)
+scheduler.start()
