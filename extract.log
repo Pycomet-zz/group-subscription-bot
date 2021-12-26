@@ -911,3 +911,215 @@ DEBUG: 12/22/2021 01:34:34 Received 0 new updates
 DEBUG: 12/22/2021 01:34:34 Task complete
 DEBUG: 12/22/2021 01:34:34 Received task
 DEBUG: 12/22/2021 01:34:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918279, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:26:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 12/25/2021 09:26:08 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 12/25/2021 09:26:08 Started polling.
+DEBUG: 12/25/2021 09:26:08 Received task
+DEBUG: 12/25/2021 09:26:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:26:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:26:30 Received 0 new updates
+DEBUG: 12/25/2021 09:26:30 Task complete
+DEBUG: 12/25/2021 09:26:30 Received task
+DEBUG: 12/25/2021 09:26:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:26:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:26:51 Received 0 new updates
+DEBUG: 12/25/2021 09:26:51 Task complete
+DEBUG: 12/25/2021 09:26:51 Received task
+DEBUG: 12/25/2021 09:26:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:27:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:27:11 Received 0 new updates
+DEBUG: 12/25/2021 09:27:11 Task complete
+DEBUG: 12/25/2021 09:27:11 Received task
+DEBUG: 12/25/2021 09:27:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:27:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:27:31 Received 0 new updates
+DEBUG: 12/25/2021 09:27:31 Task complete
+DEBUG: 12/25/2021 09:27:31 Received task
+DEBUG: 12/25/2021 09:27:31 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:27:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:27:52 Received 0 new updates
+DEBUG: 12/25/2021 09:27:52 Task complete
+DEBUG: 12/25/2021 09:27:52 Received task
+DEBUG: 12/25/2021 09:27:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:28:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:28:12 Received 0 new updates
+DEBUG: 12/25/2021 09:28:12 Task complete
+DEBUG: 12/25/2021 09:28:12 Received task
+DEBUG: 12/25/2021 09:28:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:28:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:28:33 Received 0 new updates
+DEBUG: 12/25/2021 09:28:33 Task complete
+DEBUG: 12/25/2021 09:28:33 Received task
+DEBUG: 12/25/2021 09:28:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:28:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:28:53 Received 0 new updates
+DEBUG: 12/25/2021 09:28:53 Task complete
+DEBUG: 12/25/2021 09:28:53 Received task
+DEBUG: 12/25/2021 09:28:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:29:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:29:14 Received 0 new updates
+DEBUG: 12/25/2021 09:29:14 Task complete
+DEBUG: 12/25/2021 09:29:14 Received task
+DEBUG: 12/25/2021 09:29:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:29:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/25/2021 09:29:34 Received 0 new updates
+DEBUG: 12/25/2021 09:29:34 Task complete
+DEBUG: 12/25/2021 09:29:34 Received task
+DEBUG: 12/25/2021 09:29:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/25/2021 09:29:59 ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)"),)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 411, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 391, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 151, in _make_request
+    result = _get_req_session().request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+DEBUG: 12/26/2021 08:35:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 12/26/2021 08:35:22 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 12/26/2021 08:35:22 Started polling.
+DEBUG: 12/26/2021 08:35:22 Received task
+DEBUG: 12/26/2021 08:35:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:35:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:35:43 Received 0 new updates
+DEBUG: 12/26/2021 08:35:43 Task complete
+DEBUG: 12/26/2021 08:35:43 Received task
+DEBUG: 12/26/2021 08:35:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:36:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:36:03 Received 0 new updates
+DEBUG: 12/26/2021 08:36:03 Task complete
+DEBUG: 12/26/2021 08:36:03 Received task
+DEBUG: 12/26/2021 08:36:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:36:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:36:23 Received 0 new updates
+DEBUG: 12/26/2021 08:36:23 Task complete
+DEBUG: 12/26/2021 08:36:23 Received task
+DEBUG: 12/26/2021 08:36:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:36:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:36:44 Received 0 new updates
+DEBUG: 12/26/2021 08:36:44 Task complete
+DEBUG: 12/26/2021 08:36:44 Received task
+DEBUG: 12/26/2021 08:36:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:37:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:37:04 Received 0 new updates
+DEBUG: 12/26/2021 08:37:04 Task complete
+DEBUG: 12/26/2021 08:37:04 Received task
+DEBUG: 12/26/2021 08:37:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:37:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/26/2021 08:37:25 Received 0 new updates
+DEBUG: 12/26/2021 08:37:25 Task complete
+DEBUG: 12/26/2021 08:37:25 Received task
+DEBUG: 12/26/2021 08:37:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/26/2021 08:54:11 ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)"),)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 411, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 391, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 151, in _make_request
+    result = _get_req_session().request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
