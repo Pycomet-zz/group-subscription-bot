@@ -4,3 +4,10 @@ WARNING: 12/28/2021 05:53:18 Attempt 3 at connecting failed: TimeoutError:
 WARNING: 12/28/2021 05:53:29 Attempt 4 at connecting failed: TimeoutError: 
 WARNING: 12/28/2021 05:53:40 Attempt 5 at connecting failed: TimeoutError: 
 WARNING: 12/28/2021 05:53:51 Attempt 6 at connecting failed: TimeoutError: 
+DEBUG: 12/30/2021 12:24:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 12/30/2021 12:24:21 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 12/30/2021 12:24:21 Started polling.
+DEBUG: 12/30/2021 12:24:21 Received task
+DEBUG: 12/30/2021 12:24:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+INFO: 12/30/2021 12:24:26 KeyboardInterrupt received.
+INFO: 12/30/2021 12:24:26 Stopped polling.

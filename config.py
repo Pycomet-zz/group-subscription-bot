@@ -62,3 +62,4 @@ app = Flask(__name__)
 app.config.from_object(Config())
 scheduler.init_app(app)
 scheduler.start()
+ 
