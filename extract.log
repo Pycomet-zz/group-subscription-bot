@@ -11,3 +11,77 @@ DEBUG: 12/30/2021 12:24:21 Received task
 DEBUG: 12/30/2021 12:24:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
 INFO: 12/30/2021 12:24:26 KeyboardInterrupt received.
 INFO: 12/30/2021 12:24:26 Stopped polling.
+DEBUG: 12/30/2021 01:04:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 12/30/2021 01:04:08 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+INFO: 12/30/2021 01:04:08 Started polling.
+DEBUG: 12/30/2021 01:04:08 Received task
+DEBUG: 12/30/2021 01:04:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/30/2021 01:04:20 The server returned: 'b'{"ok":true,"result":[{"update_id":913918289,\n"message":{"message_id":91,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1640822647,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 12/30/2021 01:04:20 Received 1 new updates
+DEBUG: 12/30/2021 01:04:20 Task complete
+DEBUG: 12/30/2021 01:04:20 Received task
+DEBUG: 12/30/2021 01:04:20 Received task
+DEBUG: 12/30/2021 01:04:20 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918290, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/30/2021 01:04:20 ValueError occurred, args=('Could not find the input entity for PeerChannel(channel_id=1543877646) (PeerChannel). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.',)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 23, in pull_subscribers
+    channel = loop.run_until_complete(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerChannel(channel_id=1543877646) (PeerChannel). Please read https://docs.telethon.dev/en/latest/concepts/entities.html to find out more details.
+
+DEBUG: 12/30/2021 01:04:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/30/2021 01:04:40 Received 0 new updates
+DEBUG: 12/30/2021 01:04:40 Task complete
+WARNING: 12/30/2021 01:05:38 Security error while unpacking a received message: Server replied with a wrong session ID
+DEBUG: 12/30/2021 01:11:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 12/30/2021 01:11:24 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 12/30/2021 01:11:24 Started polling.
+DEBUG: 12/30/2021 01:11:24 Received task
+DEBUG: 12/30/2021 01:11:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/30/2021 01:11:32 The server returned: 'b'{"ok":true,"result":[{"update_id":913918290,\n"message":{"message_id":92,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1640823080,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 12/30/2021 01:11:32 Received 1 new updates
+DEBUG: 12/30/2021 01:11:32 Task complete
+DEBUG: 12/30/2021 01:11:32 Received task
+DEBUG: 12/30/2021 01:11:32 Received task
+DEBUG: 12/30/2021 01:11:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918291, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/30/2021 01:11:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/30/2021 01:11:53 Received 0 new updates
+DEBUG: 12/30/2021 01:11:53 Task complete
+DEBUG: 12/30/2021 01:11:53 Received task
+DEBUG: 12/30/2021 01:11:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918291, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 12/30/2021 01:12:06 ChatAdminRequiredError occurred, args=('Chat admin privileges are required to do that in the specified chat (for example, to send a message in a channel which is not yours), or invalid permissions used for the channel or group (caused by GetParticipantsRequest)',)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 27, in pull_subscribers
+    members = loop.run_until_complete(client.get_participants(channel, aggressive=True))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 641, in run_until_complete
+    return future.result()
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/chats.py", line 507, in get_participants
+    return await self.iter_participants(*args, **kwargs).collect()
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/requestiter.py", line 113, in collect
+    async for message in self:
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/requestiter.py", line 74, in __anext__
+    if await self._load_next_chunk():
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/chats.py", line 214, in _load_next_chunk
+    self.total = (await self.client(functions.channels.GetParticipantsRequest(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telethon/client/users.py", line 84, in _call
+    result = await future
+telethon.errors.rpcerrorlist.ChatAdminRequiredError: Chat admin privileges are required to do that in the specified chat (for example, to send a message in a channel which is not yours), or invalid permissions used for the channel or group (caused by GetParticipantsRequest)
+
+DEBUG: 12/30/2021 01:12:13 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 12/30/2021 01:12:13 Received 0 new updates
+DEBUG: 12/30/2021 01:12:13 Task complete
