@@ -1,26 +1,48 @@
 from telethon.tl.functions.channels import EditBannedRequest
 from config import *
 
+channel = loop.run_until_complete(
+    client.get_entity(int(GROUP))
+)
 
+BASE_URL = F'https://api.telegram.org/bot{TOKEN}'
 
 def add_user(user_id:int):
-    # Get group entity and members
-    channel = loop.run_until_complete(
-        client.get_entity(int(GROUP))
-    )
- 
     try:
+
+        # Creating a single user invliteChat
+        params= {
+            'chat_id': GROUP,
+            'user_id': user_id,
+            'creates_join_request': True
+        }
+
+        req = requests.post(f'{BASE_URL}/createChatInviteLink', data=params).json()
+
+        # Send the link to the new user
+        url = req['result']['invite_link']
         loop.run_until_complete(
-            client(
-                InviteToChannelRequest(
-                    channel,
-                    [user_id]
-                )
+            client.send_message(
+                user_id,
+                f"""
+        
+        Hello Partner 😃,
+
+        Here is your invite link to the Official Channel 
+        {url}
+
+        Welcome!
+                """
             )
         )
+
+
+        # set date of removal (APScheduler)
+
         return True
 
     except Exception as e:
+        logging.error(e)
         return False
     
 
@@ -29,21 +51,18 @@ def add_user(user_id:int):
 
 
 def remove_user(user_id):
-    # channel = loop.run_until_complete(
-    #     client.get_input_entity(int(GROUP))
-    # )
-# client.invoke(EditBannedRequest(channel_entity, client.get_input_entity('username'), ChannelBannedRights(datetime.datetime(2020, 12, 25), view_messages=True, send_messages=True,send_media=True,send_stickers=True,send_gifs=True,send_games=True, send_inline=True, embed_links=True)))
-
+    "Removes User From The Channel"
     try:
-        loop.run_until_complete(
-            client(
-                DeleteChatUserRequest(
-                    int(GROUP),
-                    user_id,
-                    revoke_history=True
-                )
-            )
-        )
+
+        params= {
+            'chat_id': GROUP,
+            'user_id': user_id
+        }
+        # Request to the oficial API banChatMemeber
+        req = requests.post(f'{BASE_URL}/banChatMember', data=params).json()
+
         return True
+
     except Exception as e:
+        logging.error(e)
         return False

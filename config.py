@@ -13,6 +13,7 @@ import asyncio
 from telethon import TelegramClient
 from telebot import types
 import goslate
+import requests
 from dotenv import load_dotenv
 load_dotenv()
 

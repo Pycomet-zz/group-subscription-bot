@@ -85,3 +85,1681 @@ telethon.errors.rpcerrorlist.ChatAdminRequiredError: Chat admin privileges are r
 DEBUG: 12/30/2021 01:12:13 The server returned: 'b'{"ok":true,"result":[]}''
 DEBUG: 12/30/2021 01:12:13 Received 0 new updates
 DEBUG: 12/30/2021 01:12:13 Task complete
+DEBUG: 01/02/2022 06:19:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:19:58 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:19:58 Started polling.
+DEBUG: 01/02/2022 06:19:58 Received task
+DEBUG: 01/02/2022 06:19:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:20:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:20:19 Received 0 new updates
+DEBUG: 01/02/2022 06:20:19 Task complete
+DEBUG: 01/02/2022 06:20:19 Received task
+DEBUG: 01/02/2022 06:20:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:20:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:20:39 Received 0 new updates
+DEBUG: 01/02/2022 06:20:39 Task complete
+DEBUG: 01/02/2022 06:20:39 Received task
+DEBUG: 01/02/2022 06:20:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:20:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:20:59 Received 0 new updates
+DEBUG: 01/02/2022 06:20:59 Task complete
+DEBUG: 01/02/2022 06:20:59 Received task
+DEBUG: 01/02/2022 06:20:59 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:21:10 The server returned: 'b'{"ok":true,"result":[{"update_id":913918291,\n"message":{"message_id":93,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144054,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:21:10 Received 1 new updates
+DEBUG: 01/02/2022 06:21:10 Task complete
+DEBUG: 01/02/2022 06:21:10 Received task
+DEBUG: 01/02/2022 06:21:10 Received task
+DEBUG: 01/02/2022 06:21:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918292, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:21:22 The server returned: 'b'{"ok":true,"result":[{"update_id":913918292,\n"message":{"message_id":94,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144065,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:21:22 Received 1 new updates
+DEBUG: 01/02/2022 06:21:22 Task complete
+DEBUG: 01/02/2022 06:21:22 Received task
+DEBUG: 01/02/2022 06:21:22 Received task
+DEBUG: 01/02/2022 06:21:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:21:33 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': 'Welcome to Your Group Admin Bot', 'reply_to_message_id': 94} files=None
+DEBUG: 01/02/2022 06:21:34 The server returned: 'b'{"ok":true,"result":{"message_id":95,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144078,"reply_to_message":{"message_id":94,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144065,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]},"text":"Welcome to Your Group Admin Bot"}}''
+DEBUG: 01/02/2022 06:21:35 Task complete
+DEBUG: 01/02/2022 06:21:42 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:21:42 Received 0 new updates
+DEBUG: 01/02/2022 06:21:42 Task complete
+DEBUG: 01/02/2022 06:21:42 Received task
+DEBUG: 01/02/2022 06:21:42 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:21:42 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '556 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/02/2022 06:21:43 The server returned: 'b'{"ok":true,"result":{"message_id":96,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144086,"text":"556 Subscribers found in FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019"}}''
+DEBUG: 01/02/2022 06:21:43 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendDocument params={'chat_id': 577180091, 'caption': 'Extraction Complete!!'} files={'document': <_io.BufferedReader name='Users.csv'>}
+DEBUG: 01/02/2022 06:21:44 The server returned: 'b'{"ok":true,"result":{"message_id":97,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144087,"document":{"file_name":"Users.csv","mime_type":"text/csv","file_id":"BQACAgEAAxkDAANhYdHfF2f6nE9dHaUMCJwpkRxtzTUAAgICAANbkUYukTv317wQaCME","file_unique_id":"AgADAgIAA1uRRg","file_size":27786},"caption":"Extraction Complete!!"}}''
+DEBUG: 01/02/2022 06:21:44 Task complete
+DEBUG: 01/02/2022 06:22:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:22:02 Received 0 new updates
+DEBUG: 01/02/2022 06:22:02 Task complete
+DEBUG: 01/02/2022 06:22:02 Received task
+DEBUG: 01/02/2022 06:22:02 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:22:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:22:22 Received 0 new updates
+DEBUG: 01/02/2022 06:22:22 Task complete
+DEBUG: 01/02/2022 06:22:22 Received task
+DEBUG: 01/02/2022 06:22:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:22:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:22:43 Received 0 new updates
+DEBUG: 01/02/2022 06:22:43 Task complete
+DEBUG: 01/02/2022 06:22:43 Received task
+DEBUG: 01/02/2022 06:22:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:23:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:23:03 Received 0 new updates
+DEBUG: 01/02/2022 06:23:03 Task complete
+DEBUG: 01/02/2022 06:23:03 Received task
+DEBUG: 01/02/2022 06:23:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:23:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:23:23 Received 0 new updates
+DEBUG: 01/02/2022 06:23:23 Task complete
+DEBUG: 01/02/2022 06:23:23 Received task
+DEBUG: 01/02/2022 06:23:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:23:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:23:44 Received 0 new updates
+DEBUG: 01/02/2022 06:23:44 Task complete
+DEBUG: 01/02/2022 06:23:44 Received task
+DEBUG: 01/02/2022 06:23:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918293, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:23:55 The server returned: 'b'{"ok":true,"result":[{"update_id":913918293,\n"message":{"message_id":98,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144219,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:23:55 Received 1 new updates
+DEBUG: 01/02/2022 06:23:55 Task complete
+DEBUG: 01/02/2022 06:23:55 Received task
+DEBUG: 01/02/2022 06:23:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918294, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:24:16 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:24:16 Received 0 new updates
+DEBUG: 01/02/2022 06:24:16 Task complete
+DEBUG: 01/02/2022 06:24:16 Received task
+DEBUG: 01/02/2022 06:24:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918294, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:24:36 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:24:36 Received 0 new updates
+DEBUG: 01/02/2022 06:24:36 Task complete
+DEBUG: 01/02/2022 06:24:36 Received task
+DEBUG: 01/02/2022 06:24:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918294, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:24:36 The server returned: 'b'{"ok":true,"result":[{"update_id":913918294,\n"message":{"message_id":99,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144260,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:24:36 Received 1 new updates
+DEBUG: 01/02/2022 06:24:36 Task complete
+DEBUG: 01/02/2022 06:24:36 Received task
+DEBUG: 01/02/2022 06:24:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918295, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:24:46 The server returned: 'b'{"ok":true,"result":[{"update_id":913918295,\n"message":{"message_id":100,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144269,"text":"/removeuser","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:24:46 Received 1 new updates
+DEBUG: 01/02/2022 06:24:46 Task complete
+DEBUG: 01/02/2022 06:24:46 Received task
+DEBUG: 01/02/2022 06:24:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918296, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:25:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:25:06 Received 0 new updates
+DEBUG: 01/02/2022 06:25:06 Task complete
+DEBUG: 01/02/2022 06:25:06 Received task
+DEBUG: 01/02/2022 06:25:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918296, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:25:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:25:23 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:25:23 Started polling.
+DEBUG: 01/02/2022 06:25:23 Received task
+DEBUG: 01/02/2022 06:25:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:25:30 The server returned: 'b'{"ok":true,"result":[{"update_id":913918296,\n"message":{"message_id":101,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144313,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:25:30 Received 1 new updates
+DEBUG: 01/02/2022 06:25:30 Task complete
+DEBUG: 01/02/2022 06:25:30 Received task
+DEBUG: 01/02/2022 06:25:30 Received task
+DEBUG: 01/02/2022 06:25:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918297, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:25:40 ValueError occurred, args=("invalid literal for int() with base 10: 'fahalomari'",)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/delete.py", line 10, in removeUser
+    user = client.get_entity(int(message[1]))
+ValueError: invalid literal for int() with base 10: 'fahalomari'
+
+DEBUG: 01/02/2022 06:25:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:25:57 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:25:57 Started polling.
+DEBUG: 01/02/2022 06:25:57 Received task
+DEBUG: 01/02/2022 06:25:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:26:07 The server returned: 'b'{"ok":true,"result":[{"update_id":913918297,\n"message":{"message_id":102,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144351,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:26:07 Received 1 new updates
+DEBUG: 01/02/2022 06:26:07 Task complete
+DEBUG: 01/02/2022 06:26:07 Received task
+DEBUG: 01/02/2022 06:26:07 Received task
+DEBUG: 01/02/2022 06:26:07 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918298, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:26:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:26:27 Received 0 new updates
+DEBUG: 01/02/2022 06:26:27 Task complete
+DEBUG: 01/02/2022 06:26:27 Received task
+DEBUG: 01/02/2022 06:26:27 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918298, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:26:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:26:47 Received 0 new updates
+DEBUG: 01/02/2022 06:26:47 Task complete
+DEBUG: 01/02/2022 06:26:47 Received task
+DEBUG: 01/02/2022 06:26:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918298, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:27:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:27:08 Received 0 new updates
+DEBUG: 01/02/2022 06:27:08 Task complete
+DEBUG: 01/02/2022 06:27:08 Received task
+DEBUG: 01/02/2022 06:27:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918298, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:27:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:27:28 Received 0 new updates
+DEBUG: 01/02/2022 06:27:28 Task complete
+DEBUG: 01/02/2022 06:27:28 Received task
+DEBUG: 01/02/2022 06:27:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918298, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:27:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:27:37 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:27:37 Started polling.
+DEBUG: 01/02/2022 06:27:37 Received task
+DEBUG: 01/02/2022 06:27:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:27:47 The server returned: 'b'{"ok":true,"result":[{"update_id":913918298,\n"message":{"message_id":103,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144451,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:27:47 Received 1 new updates
+DEBUG: 01/02/2022 06:27:47 Task complete
+DEBUG: 01/02/2022 06:27:47 Received task
+DEBUG: 01/02/2022 06:27:47 Received task
+DEBUG: 01/02/2022 06:27:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:28:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:28:08 Received 0 new updates
+DEBUG: 01/02/2022 06:28:08 Task complete
+DEBUG: 01/02/2022 06:28:08 Received task
+DEBUG: 01/02/2022 06:28:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:28:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:28:28 Received 0 new updates
+DEBUG: 01/02/2022 06:28:28 Task complete
+DEBUG: 01/02/2022 06:28:28 Received task
+DEBUG: 01/02/2022 06:28:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:28:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:28:48 Received 0 new updates
+DEBUG: 01/02/2022 06:28:48 Task complete
+DEBUG: 01/02/2022 06:28:48 Received task
+DEBUG: 01/02/2022 06:28:48 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:29:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:29:08 Received 0 new updates
+DEBUG: 01/02/2022 06:29:08 Task complete
+DEBUG: 01/02/2022 06:29:08 Received task
+DEBUG: 01/02/2022 06:29:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:29:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:29:29 Received 0 new updates
+DEBUG: 01/02/2022 06:29:29 Task complete
+DEBUG: 01/02/2022 06:29:29 Received task
+DEBUG: 01/02/2022 06:29:29 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918299, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:29:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:29:41 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:29:41 Started polling.
+DEBUG: 01/02/2022 06:29:41 Received task
+DEBUG: 01/02/2022 06:29:41 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:29:48 The server returned: 'b'{"ok":true,"result":[{"update_id":913918299,\n"message":{"message_id":104,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641144571,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:29:48 Received 1 new updates
+DEBUG: 01/02/2022 06:29:48 Task complete
+DEBUG: 01/02/2022 06:29:48 Received task
+DEBUG: 01/02/2022 06:29:48 Received task
+DEBUG: 01/02/2022 06:29:48 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:30:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:30:08 Received 0 new updates
+DEBUG: 01/02/2022 06:30:08 Task complete
+DEBUG: 01/02/2022 06:30:08 Received task
+DEBUG: 01/02/2022 06:30:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:30:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:30:28 Received 0 new updates
+DEBUG: 01/02/2022 06:30:28 Task complete
+DEBUG: 01/02/2022 06:30:28 Received task
+DEBUG: 01/02/2022 06:30:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:30:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:30:49 Received 0 new updates
+DEBUG: 01/02/2022 06:30:49 Task complete
+DEBUG: 01/02/2022 06:30:49 Received task
+DEBUG: 01/02/2022 06:30:49 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:31:09 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:31:09 Received 0 new updates
+DEBUG: 01/02/2022 06:31:09 Task complete
+DEBUG: 01/02/2022 06:31:09 Received task
+DEBUG: 01/02/2022 06:31:09 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:31:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:31:29 Received 0 new updates
+DEBUG: 01/02/2022 06:31:29 Task complete
+DEBUG: 01/02/2022 06:31:29 Received task
+DEBUG: 01/02/2022 06:31:29 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:31:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:31:49 Received 0 new updates
+DEBUG: 01/02/2022 06:31:49 Task complete
+DEBUG: 01/02/2022 06:31:49 Received task
+DEBUG: 01/02/2022 06:31:49 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:32:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:32:10 Received 0 new updates
+DEBUG: 01/02/2022 06:32:10 Task complete
+DEBUG: 01/02/2022 06:32:10 Received task
+DEBUG: 01/02/2022 06:32:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:32:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:32:30 Received 0 new updates
+DEBUG: 01/02/2022 06:32:30 Task complete
+DEBUG: 01/02/2022 06:32:30 Received task
+DEBUG: 01/02/2022 06:32:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:32:50 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:32:50 Received 0 new updates
+DEBUG: 01/02/2022 06:32:50 Task complete
+DEBUG: 01/02/2022 06:32:50 Received task
+DEBUG: 01/02/2022 06:32:50 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+ERROR: 01/02/2022 06:32:59 Request caused struct.error: required argument is not an integer: DeleteChatUserRequest(chat_id='-1001543877646', user_id=InputUser(user_id=1263753682, access_hash=872841658294453504), revoke_history=None)
+DEBUG: 01/02/2022 06:33:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:33:10 Received 0 new updates
+DEBUG: 01/02/2022 06:33:10 Task complete
+DEBUG: 01/02/2022 06:33:10 Received task
+DEBUG: 01/02/2022 06:33:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:33:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:33:31 Received 0 new updates
+DEBUG: 01/02/2022 06:33:31 Task complete
+DEBUG: 01/02/2022 06:33:31 Received task
+DEBUG: 01/02/2022 06:33:31 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:33:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:33:51 Received 0 new updates
+DEBUG: 01/02/2022 06:33:51 Task complete
+DEBUG: 01/02/2022 06:33:51 Received task
+DEBUG: 01/02/2022 06:33:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:34:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:34:11 Received 0 new updates
+DEBUG: 01/02/2022 06:34:11 Task complete
+DEBUG: 01/02/2022 06:34:11 Received task
+DEBUG: 01/02/2022 06:34:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:34:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:34:31 Received 0 new updates
+DEBUG: 01/02/2022 06:34:31 Task complete
+DEBUG: 01/02/2022 06:34:31 Received task
+DEBUG: 01/02/2022 06:34:31 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:34:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:34:51 Received 0 new updates
+DEBUG: 01/02/2022 06:34:51 Task complete
+DEBUG: 01/02/2022 06:34:51 Received task
+DEBUG: 01/02/2022 06:34:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:35:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:35:12 Received 0 new updates
+DEBUG: 01/02/2022 06:35:12 Task complete
+DEBUG: 01/02/2022 06:35:12 Received task
+DEBUG: 01/02/2022 06:35:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:35:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:35:32 Received 0 new updates
+DEBUG: 01/02/2022 06:35:32 Task complete
+DEBUG: 01/02/2022 06:35:32 Received task
+DEBUG: 01/02/2022 06:35:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:35:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:35:52 Received 0 new updates
+DEBUG: 01/02/2022 06:35:52 Task complete
+DEBUG: 01/02/2022 06:35:52 Received task
+DEBUG: 01/02/2022 06:35:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:36:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:36:12 Received 0 new updates
+DEBUG: 01/02/2022 06:36:12 Task complete
+DEBUG: 01/02/2022 06:36:12 Received task
+DEBUG: 01/02/2022 06:36:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:36:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:36:33 Received 0 new updates
+DEBUG: 01/02/2022 06:36:33 Task complete
+DEBUG: 01/02/2022 06:36:33 Received task
+DEBUG: 01/02/2022 06:36:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:36:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:36:53 Received 0 new updates
+DEBUG: 01/02/2022 06:36:53 Task complete
+DEBUG: 01/02/2022 06:36:53 Received task
+DEBUG: 01/02/2022 06:36:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:37:13 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:37:13 Received 0 new updates
+DEBUG: 01/02/2022 06:37:13 Task complete
+DEBUG: 01/02/2022 06:37:13 Received task
+DEBUG: 01/02/2022 06:37:13 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:37:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:37:34 Received 0 new updates
+DEBUG: 01/02/2022 06:37:34 Task complete
+DEBUG: 01/02/2022 06:37:34 Received task
+DEBUG: 01/02/2022 06:37:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:37:54 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:37:54 Received 0 new updates
+DEBUG: 01/02/2022 06:37:54 Task complete
+DEBUG: 01/02/2022 06:37:54 Received task
+DEBUG: 01/02/2022 06:37:54 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:38:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:38:14 Received 0 new updates
+DEBUG: 01/02/2022 06:38:14 Task complete
+DEBUG: 01/02/2022 06:38:14 Received task
+DEBUG: 01/02/2022 06:38:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:38:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:38:34 Received 0 new updates
+DEBUG: 01/02/2022 06:38:34 Task complete
+DEBUG: 01/02/2022 06:38:34 Received task
+DEBUG: 01/02/2022 06:38:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:38:54 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:38:54 Received 0 new updates
+DEBUG: 01/02/2022 06:38:54 Task complete
+DEBUG: 01/02/2022 06:38:54 Received task
+DEBUG: 01/02/2022 06:38:54 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:39:15 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:39:15 Received 0 new updates
+DEBUG: 01/02/2022 06:39:15 Task complete
+DEBUG: 01/02/2022 06:39:15 Received task
+DEBUG: 01/02/2022 06:39:15 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:39:35 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:39:35 Received 0 new updates
+DEBUG: 01/02/2022 06:39:35 Task complete
+DEBUG: 01/02/2022 06:39:35 Received task
+DEBUG: 01/02/2022 06:39:35 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:39:55 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:39:55 Received 0 new updates
+DEBUG: 01/02/2022 06:39:55 Task complete
+DEBUG: 01/02/2022 06:39:55 Received task
+DEBUG: 01/02/2022 06:39:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:40:16 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:40:16 Received 0 new updates
+DEBUG: 01/02/2022 06:40:16 Task complete
+DEBUG: 01/02/2022 06:40:16 Received task
+DEBUG: 01/02/2022 06:40:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:40:36 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:40:36 Received 0 new updates
+DEBUG: 01/02/2022 06:40:36 Task complete
+DEBUG: 01/02/2022 06:40:36 Received task
+DEBUG: 01/02/2022 06:40:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:40:56 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:40:56 Received 0 new updates
+DEBUG: 01/02/2022 06:40:56 Task complete
+DEBUG: 01/02/2022 06:40:56 Received task
+DEBUG: 01/02/2022 06:40:56 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:41:16 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:41:16 Received 0 new updates
+DEBUG: 01/02/2022 06:41:16 Task complete
+DEBUG: 01/02/2022 06:41:16 Received task
+DEBUG: 01/02/2022 06:41:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:41:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:41:37 Received 0 new updates
+DEBUG: 01/02/2022 06:41:37 Task complete
+DEBUG: 01/02/2022 06:41:37 Received task
+DEBUG: 01/02/2022 06:41:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:41:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:41:57 Received 0 new updates
+DEBUG: 01/02/2022 06:41:57 Task complete
+DEBUG: 01/02/2022 06:41:57 Received task
+DEBUG: 01/02/2022 06:41:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:42:17 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:42:17 Received 0 new updates
+DEBUG: 01/02/2022 06:42:17 Task complete
+DEBUG: 01/02/2022 06:42:17 Received task
+DEBUG: 01/02/2022 06:42:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:42:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:42:37 Received 0 new updates
+DEBUG: 01/02/2022 06:42:37 Task complete
+DEBUG: 01/02/2022 06:42:37 Received task
+DEBUG: 01/02/2022 06:42:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:42:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:42:57 Received 0 new updates
+DEBUG: 01/02/2022 06:42:57 Task complete
+DEBUG: 01/02/2022 06:42:57 Received task
+DEBUG: 01/02/2022 06:42:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:43:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:43:18 Received 0 new updates
+DEBUG: 01/02/2022 06:43:18 Task complete
+DEBUG: 01/02/2022 06:43:18 Received task
+DEBUG: 01/02/2022 06:43:18 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:43:38 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:43:38 Received 0 new updates
+DEBUG: 01/02/2022 06:43:38 Task complete
+DEBUG: 01/02/2022 06:43:38 Received task
+DEBUG: 01/02/2022 06:43:38 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:43:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:43:58 Received 0 new updates
+DEBUG: 01/02/2022 06:43:58 Task complete
+DEBUG: 01/02/2022 06:43:58 Received task
+DEBUG: 01/02/2022 06:43:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:44:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:44:18 Received 0 new updates
+DEBUG: 01/02/2022 06:44:18 Task complete
+DEBUG: 01/02/2022 06:44:18 Received task
+DEBUG: 01/02/2022 06:44:18 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:44:38 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:44:38 Received 0 new updates
+DEBUG: 01/02/2022 06:44:38 Task complete
+DEBUG: 01/02/2022 06:44:38 Received task
+DEBUG: 01/02/2022 06:44:38 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:44:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:44:59 Received 0 new updates
+DEBUG: 01/02/2022 06:44:59 Task complete
+DEBUG: 01/02/2022 06:44:59 Received task
+DEBUG: 01/02/2022 06:44:59 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:45:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:45:19 Received 0 new updates
+DEBUG: 01/02/2022 06:45:19 Task complete
+DEBUG: 01/02/2022 06:45:19 Received task
+DEBUG: 01/02/2022 06:45:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:45:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:45:39 Received 0 new updates
+DEBUG: 01/02/2022 06:45:39 Task complete
+DEBUG: 01/02/2022 06:45:39 Received task
+DEBUG: 01/02/2022 06:45:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:45:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:45:59 Received 0 new updates
+DEBUG: 01/02/2022 06:45:59 Task complete
+DEBUG: 01/02/2022 06:45:59 Received task
+DEBUG: 01/02/2022 06:45:59 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:46:20 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:46:20 Received 0 new updates
+DEBUG: 01/02/2022 06:46:20 Task complete
+DEBUG: 01/02/2022 06:46:20 Received task
+DEBUG: 01/02/2022 06:46:20 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:46:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:46:40 Received 0 new updates
+DEBUG: 01/02/2022 06:46:40 Task complete
+DEBUG: 01/02/2022 06:46:40 Received task
+DEBUG: 01/02/2022 06:46:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:47:00 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:47:00 Received 0 new updates
+DEBUG: 01/02/2022 06:47:00 Task complete
+DEBUG: 01/02/2022 06:47:00 Received task
+DEBUG: 01/02/2022 06:47:00 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:47:20 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:47:20 Received 0 new updates
+DEBUG: 01/02/2022 06:47:20 Task complete
+DEBUG: 01/02/2022 06:47:20 Received task
+DEBUG: 01/02/2022 06:47:20 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:47:41 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:47:41 Received 0 new updates
+DEBUG: 01/02/2022 06:47:41 Task complete
+DEBUG: 01/02/2022 06:47:41 Received task
+DEBUG: 01/02/2022 06:47:41 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:48:01 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:48:01 Received 0 new updates
+DEBUG: 01/02/2022 06:48:01 Task complete
+DEBUG: 01/02/2022 06:48:01 Received task
+DEBUG: 01/02/2022 06:48:01 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:48:21 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:48:21 Received 0 new updates
+DEBUG: 01/02/2022 06:48:21 Task complete
+DEBUG: 01/02/2022 06:48:21 Received task
+DEBUG: 01/02/2022 06:48:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:48:42 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:48:42 Received 0 new updates
+DEBUG: 01/02/2022 06:48:42 Task complete
+DEBUG: 01/02/2022 06:48:42 Received task
+DEBUG: 01/02/2022 06:48:42 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:49:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:49:02 Received 0 new updates
+DEBUG: 01/02/2022 06:49:02 Task complete
+DEBUG: 01/02/2022 06:49:02 Received task
+DEBUG: 01/02/2022 06:49:02 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:49:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:49:22 Received 0 new updates
+DEBUG: 01/02/2022 06:49:22 Task complete
+DEBUG: 01/02/2022 06:49:22 Received task
+DEBUG: 01/02/2022 06:49:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:49:42 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:49:42 Received 0 new updates
+DEBUG: 01/02/2022 06:49:42 Task complete
+DEBUG: 01/02/2022 06:49:42 Received task
+DEBUG: 01/02/2022 06:49:42 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:50:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:50:03 Received 0 new updates
+DEBUG: 01/02/2022 06:50:03 Task complete
+DEBUG: 01/02/2022 06:50:03 Received task
+DEBUG: 01/02/2022 06:50:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:50:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:50:23 Received 0 new updates
+DEBUG: 01/02/2022 06:50:23 Task complete
+DEBUG: 01/02/2022 06:50:23 Received task
+DEBUG: 01/02/2022 06:50:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:50:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:50:44 Received 0 new updates
+DEBUG: 01/02/2022 06:50:44 Task complete
+DEBUG: 01/02/2022 06:50:44 Received task
+DEBUG: 01/02/2022 06:50:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:51:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:51:04 Received 0 new updates
+DEBUG: 01/02/2022 06:51:04 Task complete
+DEBUG: 01/02/2022 06:51:04 Received task
+DEBUG: 01/02/2022 06:51:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:51:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:51:24 Received 0 new updates
+DEBUG: 01/02/2022 06:51:24 Task complete
+DEBUG: 01/02/2022 06:51:24 Received task
+DEBUG: 01/02/2022 06:51:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:51:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:51:44 Received 0 new updates
+DEBUG: 01/02/2022 06:51:44 Task complete
+DEBUG: 01/02/2022 06:51:44 Received task
+DEBUG: 01/02/2022 06:51:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:52:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:52:05 Received 0 new updates
+DEBUG: 01/02/2022 06:52:05 Task complete
+DEBUG: 01/02/2022 06:52:05 Received task
+DEBUG: 01/02/2022 06:52:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:52:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:52:25 Received 0 new updates
+DEBUG: 01/02/2022 06:52:25 Task complete
+DEBUG: 01/02/2022 06:52:25 Received task
+DEBUG: 01/02/2022 06:52:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:52:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:52:45 Received 0 new updates
+DEBUG: 01/02/2022 06:52:45 Task complete
+DEBUG: 01/02/2022 06:52:45 Received task
+DEBUG: 01/02/2022 06:52:45 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:53:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:53:05 Received 0 new updates
+DEBUG: 01/02/2022 06:53:05 Task complete
+DEBUG: 01/02/2022 06:53:05 Received task
+DEBUG: 01/02/2022 06:53:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:53:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:53:26 Received 0 new updates
+DEBUG: 01/02/2022 06:53:26 Task complete
+DEBUG: 01/02/2022 06:53:26 Received task
+DEBUG: 01/02/2022 06:53:26 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:53:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:53:46 Received 0 new updates
+DEBUG: 01/02/2022 06:53:46 Task complete
+DEBUG: 01/02/2022 06:53:46 Received task
+DEBUG: 01/02/2022 06:53:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918300, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:53:50 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:53:51 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:53:51 Started polling.
+DEBUG: 01/02/2022 06:53:51 Received task
+DEBUG: 01/02/2022 06:53:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:54:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:54:11 Received 0 new updates
+DEBUG: 01/02/2022 06:54:11 Task complete
+DEBUG: 01/02/2022 06:54:11 Received task
+DEBUG: 01/02/2022 06:54:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:54:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:54:32 Received 0 new updates
+DEBUG: 01/02/2022 06:54:32 Task complete
+DEBUG: 01/02/2022 06:54:32 Received task
+DEBUG: 01/02/2022 06:54:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:54:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:54:52 Received 0 new updates
+DEBUG: 01/02/2022 06:54:52 Task complete
+DEBUG: 01/02/2022 06:54:52 Received task
+DEBUG: 01/02/2022 06:54:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:55:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:55:12 Received 0 new updates
+DEBUG: 01/02/2022 06:55:12 Task complete
+DEBUG: 01/02/2022 06:55:12 Received task
+DEBUG: 01/02/2022 06:55:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:55:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:55:33 Received 0 new updates
+DEBUG: 01/02/2022 06:55:33 Task complete
+DEBUG: 01/02/2022 06:55:33 Received task
+DEBUG: 01/02/2022 06:55:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:55:37 The server returned: 'b'{"ok":true,"result":[{"update_id":913918300,\n"my_chat_member":{"chat":{"id":-1001543877646,"title":"FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019","type":"channel"},"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"date":1641146121,"old_chat_member":{"user":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"status":"left"},"new_chat_member":{"user":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"status":"administrator","can_be_edited":false,"can_manage_chat":true,"can_change_info":true,"can_post_messages":false,"can_edit_messages":true,"can_delete_messages":true,"can_invite_users":true,"can_restrict_members":true,"can_promote_members":false,"can_manage_voice_chats":false,"is_anonymous":false}}}]}''
+DEBUG: 01/02/2022 06:55:37 Received 1 new updates
+DEBUG: 01/02/2022 06:55:37 Task complete
+DEBUG: 01/02/2022 06:55:37 Received task
+DEBUG: 01/02/2022 06:55:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918301, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:55:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:55:57 Received 0 new updates
+DEBUG: 01/02/2022 06:55:57 Task complete
+DEBUG: 01/02/2022 06:55:57 Received task
+DEBUG: 01/02/2022 06:55:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918301, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:56:05 The server returned: 'b'{"ok":true,"result":[{"update_id":913918301,\n"message":{"message_id":105,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146149,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:56:05 Received 1 new updates
+DEBUG: 01/02/2022 06:56:05 Task complete
+DEBUG: 01/02/2022 06:56:05 Received task
+DEBUG: 01/02/2022 06:56:05 Received task
+DEBUG: 01/02/2022 06:56:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:56:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:56:25 Received 0 new updates
+DEBUG: 01/02/2022 06:56:25 Task complete
+DEBUG: 01/02/2022 06:56:25 Received task
+DEBUG: 01/02/2022 06:56:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:56:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:56:46 Received 0 new updates
+DEBUG: 01/02/2022 06:56:46 Task complete
+DEBUG: 01/02/2022 06:56:46 Received task
+DEBUG: 01/02/2022 06:56:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:57:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:57:06 Received 0 new updates
+DEBUG: 01/02/2022 06:57:06 Task complete
+DEBUG: 01/02/2022 06:57:06 Received task
+DEBUG: 01/02/2022 06:57:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:57:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:57:26 Received 0 new updates
+DEBUG: 01/02/2022 06:57:26 Task complete
+DEBUG: 01/02/2022 06:57:26 Received task
+DEBUG: 01/02/2022 06:57:26 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:57:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:57:46 Received 0 new updates
+DEBUG: 01/02/2022 06:57:46 Task complete
+DEBUG: 01/02/2022 06:57:46 Received task
+DEBUG: 01/02/2022 06:57:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:58:07 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:58:07 Received 0 new updates
+DEBUG: 01/02/2022 06:58:07 Task complete
+DEBUG: 01/02/2022 06:58:07 Received task
+DEBUG: 01/02/2022 06:58:07 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:58:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:58:28 Received 0 new updates
+DEBUG: 01/02/2022 06:58:28 Task complete
+DEBUG: 01/02/2022 06:58:28 Received task
+DEBUG: 01/02/2022 06:58:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918302, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:58:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 06:58:44 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 06:58:44 Started polling.
+DEBUG: 01/02/2022 06:58:44 Received task
+DEBUG: 01/02/2022 06:58:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:58:51 The server returned: 'b'{"ok":true,"result":[{"update_id":913918302,\n"message":{"message_id":106,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146315,"text":"/removeuser fahalomari","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 06:58:51 Received 1 new updates
+DEBUG: 01/02/2022 06:58:51 Task complete
+DEBUG: 01/02/2022 06:58:51 Received task
+DEBUG: 01/02/2022 06:58:51 Received task
+DEBUG: 01/02/2022 06:58:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:59:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:59:11 Received 0 new updates
+DEBUG: 01/02/2022 06:59:11 Task complete
+DEBUG: 01/02/2022 06:59:11 Received task
+DEBUG: 01/02/2022 06:59:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:59:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:59:32 Received 0 new updates
+DEBUG: 01/02/2022 06:59:32 Task complete
+DEBUG: 01/02/2022 06:59:32 Received task
+DEBUG: 01/02/2022 06:59:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 06:59:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 06:59:52 Received 0 new updates
+DEBUG: 01/02/2022 06:59:52 Task complete
+DEBUG: 01/02/2022 06:59:52 Received task
+DEBUG: 01/02/2022 06:59:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:00:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:00:12 Received 0 new updates
+DEBUG: 01/02/2022 07:00:12 Task complete
+DEBUG: 01/02/2022 07:00:12 Received task
+DEBUG: 01/02/2022 07:00:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:00:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:00:32 Received 0 new updates
+DEBUG: 01/02/2022 07:00:32 Task complete
+DEBUG: 01/02/2022 07:00:32 Received task
+DEBUG: 01/02/2022 07:00:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:00:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:00:53 Received 0 new updates
+DEBUG: 01/02/2022 07:00:53 Task complete
+DEBUG: 01/02/2022 07:00:53 Received task
+DEBUG: 01/02/2022 07:00:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:01:13 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:01:13 Received 0 new updates
+DEBUG: 01/02/2022 07:01:13 Task complete
+DEBUG: 01/02/2022 07:01:13 Received task
+DEBUG: 01/02/2022 07:01:13 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:01:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:01:33 Received 0 new updates
+DEBUG: 01/02/2022 07:01:33 Task complete
+DEBUG: 01/02/2022 07:01:33 Received task
+DEBUG: 01/02/2022 07:01:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:01:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:01:53 Received 0 new updates
+DEBUG: 01/02/2022 07:01:53 Task complete
+DEBUG: 01/02/2022 07:01:53 Received task
+DEBUG: 01/02/2022 07:01:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918303, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:02:07 The server returned: 'b'{"ok":true,"result":[{"update_id":913918303,\n"message":{"message_id":107,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146511,"text":"/adduser apecie","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 07:02:07 Received 1 new updates
+DEBUG: 01/02/2022 07:02:07 Task complete
+DEBUG: 01/02/2022 07:02:07 Received task
+DEBUG: 01/02/2022 07:02:07 Received task
+DEBUG: 01/02/2022 07:02:07 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918304, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:02:12 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': 'User Deleted Successfully'} files=None
+DEBUG: 01/02/2022 07:02:13 The server returned: 'b'{"ok":true,"result":{"message_id":108,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146517,"text":"User Deleted Successfully"}}''
+DEBUG: 01/02/2022 07:02:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:02:27 Received 0 new updates
+DEBUG: 01/02/2022 07:02:27 Task complete
+DEBUG: 01/02/2022 07:02:27 Received task
+DEBUG: 01/02/2022 07:02:27 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918304, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:02:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:02:47 Received 0 new updates
+DEBUG: 01/02/2022 07:02:47 Task complete
+DEBUG: 01/02/2022 07:02:47 Received task
+DEBUG: 01/02/2022 07:02:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918304, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:03:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:03:08 Received 0 new updates
+DEBUG: 01/02/2022 07:03:08 Task complete
+DEBUG: 01/02/2022 07:03:08 Received task
+DEBUG: 01/02/2022 07:03:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918304, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:03:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:03:28 Received 0 new updates
+DEBUG: 01/02/2022 07:03:28 Task complete
+DEBUG: 01/02/2022 07:03:28 Received task
+DEBUG: 01/02/2022 07:03:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918304, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:03:47 Task complete
+DEBUG: 01/02/2022 07:03:47 ValueError occurred, args=("invalid literal for int() with base 10: 'apecie'",)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/add.py", line 10, in addUser
+    user = client.get_entity(int(message[1]))
+ValueError: invalid literal for int() with base 10: 'apecie'
+
+DEBUG: 01/02/2022 07:03:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:03:48 Received 0 new updates
+DEBUG: 01/02/2022 07:03:48 Task complete
+DEBUG: 01/02/2022 07:04:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 07:04:40 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 07:04:40 Started polling.
+DEBUG: 01/02/2022 07:04:40 Received task
+DEBUG: 01/02/2022 07:04:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:05:00 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:05:00 Received 0 new updates
+DEBUG: 01/02/2022 07:05:00 Task complete
+DEBUG: 01/02/2022 07:05:00 Received task
+DEBUG: 01/02/2022 07:05:00 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:05:08 The server returned: 'b'{"ok":true,"result":[{"update_id":913918304,\n"message":{"message_id":109,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146691,"text":"/adduser apecie","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 07:05:08 Received 1 new updates
+DEBUG: 01/02/2022 07:05:08 Task complete
+DEBUG: 01/02/2022 07:05:08 Received task
+DEBUG: 01/02/2022 07:05:08 Received task
+DEBUG: 01/02/2022 07:05:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918305, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:05:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:05:28 Received 0 new updates
+DEBUG: 01/02/2022 07:05:28 Task complete
+DEBUG: 01/02/2022 07:05:28 Received task
+DEBUG: 01/02/2022 07:05:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918305, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:05:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:05:49 Received 0 new updates
+DEBUG: 01/02/2022 07:05:49 Task complete
+DEBUG: 01/02/2022 07:05:49 Received task
+DEBUG: 01/02/2022 07:05:49 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918305, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:05:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/02/2022 07:05:57 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/02/2022 07:05:57 Started polling.
+DEBUG: 01/02/2022 07:05:57 Received task
+DEBUG: 01/02/2022 07:05:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:06:10 The server returned: 'b'{"ok":true,"result":[{"update_id":913918305,\n"message":{"message_id":110,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641146753,"text":"/adduser apecie","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 01/02/2022 07:06:10 Received 1 new updates
+DEBUG: 01/02/2022 07:06:10 Task complete
+DEBUG: 01/02/2022 07:06:10 Received task
+DEBUG: 01/02/2022 07:06:10 Received task
+DEBUG: 01/02/2022 07:06:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:06:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:06:30 Received 0 new updates
+DEBUG: 01/02/2022 07:06:30 Task complete
+DEBUG: 01/02/2022 07:06:30 Received task
+DEBUG: 01/02/2022 07:06:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:06:50 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:06:50 Received 0 new updates
+DEBUG: 01/02/2022 07:06:50 Task complete
+DEBUG: 01/02/2022 07:06:50 Received task
+DEBUG: 01/02/2022 07:06:50 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:07:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:07:10 Received 0 new updates
+DEBUG: 01/02/2022 07:07:10 Task complete
+DEBUG: 01/02/2022 07:07:10 Received task
+DEBUG: 01/02/2022 07:07:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:07:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:07:30 Received 0 new updates
+DEBUG: 01/02/2022 07:07:30 Task complete
+DEBUG: 01/02/2022 07:07:30 Received task
+DEBUG: 01/02/2022 07:07:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:07:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:07:51 Received 0 new updates
+DEBUG: 01/02/2022 07:07:51 Task complete
+DEBUG: 01/02/2022 07:07:51 Received task
+DEBUG: 01/02/2022 07:07:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:08:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:08:11 Received 0 new updates
+DEBUG: 01/02/2022 07:08:11 Task complete
+DEBUG: 01/02/2022 07:08:11 Received task
+DEBUG: 01/02/2022 07:08:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:08:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:08:31 Received 0 new updates
+DEBUG: 01/02/2022 07:08:31 Task complete
+DEBUG: 01/02/2022 07:08:31 Received task
+DEBUG: 01/02/2022 07:08:31 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:08:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:08:51 Received 0 new updates
+DEBUG: 01/02/2022 07:08:51 Task complete
+DEBUG: 01/02/2022 07:08:51 Received task
+DEBUG: 01/02/2022 07:08:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:09:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:09:11 Received 0 new updates
+DEBUG: 01/02/2022 07:09:12 Task complete
+DEBUG: 01/02/2022 07:09:12 Received task
+DEBUG: 01/02/2022 07:09:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:09:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:09:32 Received 0 new updates
+DEBUG: 01/02/2022 07:09:32 Task complete
+DEBUG: 01/02/2022 07:09:32 Received task
+DEBUG: 01/02/2022 07:09:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:09:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:09:52 Received 0 new updates
+DEBUG: 01/02/2022 07:09:52 Task complete
+DEBUG: 01/02/2022 07:09:52 Received task
+DEBUG: 01/02/2022 07:09:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:10:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:10:12 Received 0 new updates
+DEBUG: 01/02/2022 07:10:12 Task complete
+DEBUG: 01/02/2022 07:10:12 Received task
+DEBUG: 01/02/2022 07:10:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:10:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:10:32 Received 0 new updates
+DEBUG: 01/02/2022 07:10:32 Task complete
+DEBUG: 01/02/2022 07:10:32 Received task
+DEBUG: 01/02/2022 07:10:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:10:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:10:53 Received 0 new updates
+DEBUG: 01/02/2022 07:10:53 Task complete
+DEBUG: 01/02/2022 07:10:53 Received task
+DEBUG: 01/02/2022 07:10:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:11:13 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:11:13 Received 0 new updates
+DEBUG: 01/02/2022 07:11:13 Task complete
+DEBUG: 01/02/2022 07:11:13 Received task
+DEBUG: 01/02/2022 07:11:13 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:11:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:11:33 Received 0 new updates
+DEBUG: 01/02/2022 07:11:33 Task complete
+DEBUG: 01/02/2022 07:11:33 Received task
+DEBUG: 01/02/2022 07:11:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:11:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:11:53 Received 0 new updates
+DEBUG: 01/02/2022 07:11:53 Task complete
+DEBUG: 01/02/2022 07:11:53 Received task
+DEBUG: 01/02/2022 07:11:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:12:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:12:14 Received 0 new updates
+DEBUG: 01/02/2022 07:12:14 Task complete
+DEBUG: 01/02/2022 07:12:14 Received task
+DEBUG: 01/02/2022 07:12:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:12:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:12:34 Received 0 new updates
+DEBUG: 01/02/2022 07:12:34 Task complete
+DEBUG: 01/02/2022 07:12:34 Received task
+DEBUG: 01/02/2022 07:12:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:12:54 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:12:54 Received 0 new updates
+DEBUG: 01/02/2022 07:12:54 Task complete
+DEBUG: 01/02/2022 07:12:54 Received task
+DEBUG: 01/02/2022 07:12:54 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:13:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:13:14 Received 0 new updates
+DEBUG: 01/02/2022 07:13:14 Task complete
+DEBUG: 01/02/2022 07:13:14 Received task
+DEBUG: 01/02/2022 07:13:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:13:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:13:34 Received 0 new updates
+DEBUG: 01/02/2022 07:13:34 Task complete
+DEBUG: 01/02/2022 07:13:34 Received task
+DEBUG: 01/02/2022 07:13:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:13:55 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:13:55 Received 0 new updates
+DEBUG: 01/02/2022 07:13:55 Task complete
+DEBUG: 01/02/2022 07:13:55 Received task
+DEBUG: 01/02/2022 07:13:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:14:15 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:14:15 Received 0 new updates
+DEBUG: 01/02/2022 07:14:15 Task complete
+DEBUG: 01/02/2022 07:14:15 Received task
+DEBUG: 01/02/2022 07:14:15 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:14:36 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:14:36 Received 0 new updates
+DEBUG: 01/02/2022 07:14:36 Task complete
+DEBUG: 01/02/2022 07:14:36 Received task
+DEBUG: 01/02/2022 07:14:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:14:56 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:14:56 Received 0 new updates
+DEBUG: 01/02/2022 07:14:56 Task complete
+DEBUG: 01/02/2022 07:14:56 Received task
+DEBUG: 01/02/2022 07:14:56 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:15:16 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:15:16 Received 0 new updates
+DEBUG: 01/02/2022 07:15:16 Task complete
+DEBUG: 01/02/2022 07:15:16 Received task
+DEBUG: 01/02/2022 07:15:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:15:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:15:37 Received 0 new updates
+DEBUG: 01/02/2022 07:15:37 Task complete
+DEBUG: 01/02/2022 07:15:37 Received task
+DEBUG: 01/02/2022 07:15:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:15:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:15:57 Received 0 new updates
+DEBUG: 01/02/2022 07:15:57 Task complete
+DEBUG: 01/02/2022 07:15:57 Received task
+DEBUG: 01/02/2022 07:15:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:16:17 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:16:17 Received 0 new updates
+DEBUG: 01/02/2022 07:16:17 Task complete
+DEBUG: 01/02/2022 07:16:17 Received task
+DEBUG: 01/02/2022 07:16:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:16:38 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:16:38 Received 0 new updates
+DEBUG: 01/02/2022 07:16:38 Task complete
+DEBUG: 01/02/2022 07:16:38 Received task
+DEBUG: 01/02/2022 07:16:38 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:16:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:16:58 Received 0 new updates
+DEBUG: 01/02/2022 07:16:58 Task complete
+DEBUG: 01/02/2022 07:16:58 Received task
+DEBUG: 01/02/2022 07:16:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:17:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:17:18 Received 0 new updates
+DEBUG: 01/02/2022 07:17:18 Task complete
+DEBUG: 01/02/2022 07:17:18 Received task
+DEBUG: 01/02/2022 07:17:18 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:17:38 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:17:38 Received 0 new updates
+DEBUG: 01/02/2022 07:17:38 Task complete
+DEBUG: 01/02/2022 07:17:38 Received task
+DEBUG: 01/02/2022 07:17:38 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:17:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:17:58 Received 0 new updates
+DEBUG: 01/02/2022 07:17:58 Task complete
+DEBUG: 01/02/2022 07:17:58 Received task
+DEBUG: 01/02/2022 07:17:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:18:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:18:19 Received 0 new updates
+DEBUG: 01/02/2022 07:18:19 Task complete
+DEBUG: 01/02/2022 07:18:19 Received task
+DEBUG: 01/02/2022 07:18:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:18:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:18:39 Received 0 new updates
+DEBUG: 01/02/2022 07:18:39 Task complete
+DEBUG: 01/02/2022 07:18:39 Received task
+DEBUG: 01/02/2022 07:18:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:18:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:18:59 Received 0 new updates
+DEBUG: 01/02/2022 07:18:59 Task complete
+DEBUG: 01/02/2022 07:18:59 Received task
+DEBUG: 01/02/2022 07:18:59 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:19:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:19:19 Received 0 new updates
+DEBUG: 01/02/2022 07:19:19 Task complete
+DEBUG: 01/02/2022 07:19:19 Received task
+DEBUG: 01/02/2022 07:19:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:19:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:19:40 Received 0 new updates
+DEBUG: 01/02/2022 07:19:40 Task complete
+DEBUG: 01/02/2022 07:19:40 Received task
+DEBUG: 01/02/2022 07:19:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:20:00 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:20:00 Received 0 new updates
+DEBUG: 01/02/2022 07:20:00 Task complete
+DEBUG: 01/02/2022 07:20:00 Received task
+DEBUG: 01/02/2022 07:20:00 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:20:20 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:20:20 Received 0 new updates
+DEBUG: 01/02/2022 07:20:20 Task complete
+DEBUG: 01/02/2022 07:20:20 Received task
+DEBUG: 01/02/2022 07:20:20 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:20:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:20:40 Received 0 new updates
+DEBUG: 01/02/2022 07:20:40 Task complete
+DEBUG: 01/02/2022 07:20:40 Received task
+DEBUG: 01/02/2022 07:20:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:21:00 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:21:00 Received 0 new updates
+DEBUG: 01/02/2022 07:21:00 Task complete
+DEBUG: 01/02/2022 07:21:00 Received task
+DEBUG: 01/02/2022 07:21:00 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:21:21 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:21:21 Received 0 new updates
+DEBUG: 01/02/2022 07:21:21 Task complete
+DEBUG: 01/02/2022 07:21:21 Received task
+DEBUG: 01/02/2022 07:21:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:21:41 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:21:41 Received 0 new updates
+DEBUG: 01/02/2022 07:21:41 Task complete
+DEBUG: 01/02/2022 07:21:41 Received task
+DEBUG: 01/02/2022 07:21:41 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:22:01 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:22:01 Received 0 new updates
+DEBUG: 01/02/2022 07:22:01 Task complete
+DEBUG: 01/02/2022 07:22:01 Received task
+DEBUG: 01/02/2022 07:22:01 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:22:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:22:22 Received 0 new updates
+DEBUG: 01/02/2022 07:22:22 Task complete
+DEBUG: 01/02/2022 07:22:22 Received task
+DEBUG: 01/02/2022 07:22:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:22:42 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:22:42 Received 0 new updates
+DEBUG: 01/02/2022 07:22:42 Task complete
+DEBUG: 01/02/2022 07:22:42 Received task
+DEBUG: 01/02/2022 07:22:42 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:23:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:23:02 Received 0 new updates
+DEBUG: 01/02/2022 07:23:02 Task complete
+DEBUG: 01/02/2022 07:23:02 Received task
+DEBUG: 01/02/2022 07:23:02 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:23:22 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:23:22 Received 0 new updates
+DEBUG: 01/02/2022 07:23:22 Task complete
+DEBUG: 01/02/2022 07:23:22 Received task
+DEBUG: 01/02/2022 07:23:22 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:23:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:23:43 Received 0 new updates
+DEBUG: 01/02/2022 07:23:43 Task complete
+DEBUG: 01/02/2022 07:23:43 Received task
+DEBUG: 01/02/2022 07:23:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:24:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:24:03 Received 0 new updates
+DEBUG: 01/02/2022 07:24:03 Task complete
+DEBUG: 01/02/2022 07:24:03 Received task
+DEBUG: 01/02/2022 07:24:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:24:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:24:23 Received 0 new updates
+DEBUG: 01/02/2022 07:24:23 Task complete
+DEBUG: 01/02/2022 07:24:23 Received task
+DEBUG: 01/02/2022 07:24:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:24:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:24:43 Received 0 new updates
+DEBUG: 01/02/2022 07:24:43 Task complete
+DEBUG: 01/02/2022 07:24:43 Received task
+DEBUG: 01/02/2022 07:24:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:25:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:25:04 Received 0 new updates
+DEBUG: 01/02/2022 07:25:04 Task complete
+DEBUG: 01/02/2022 07:25:04 Received task
+DEBUG: 01/02/2022 07:25:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:25:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:25:24 Received 0 new updates
+DEBUG: 01/02/2022 07:25:24 Task complete
+DEBUG: 01/02/2022 07:25:24 Received task
+DEBUG: 01/02/2022 07:25:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:25:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:25:44 Received 0 new updates
+DEBUG: 01/02/2022 07:25:44 Task complete
+DEBUG: 01/02/2022 07:25:44 Received task
+DEBUG: 01/02/2022 07:25:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:26:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:26:04 Received 0 new updates
+DEBUG: 01/02/2022 07:26:04 Task complete
+DEBUG: 01/02/2022 07:26:04 Received task
+DEBUG: 01/02/2022 07:26:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:26:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:26:24 Received 0 new updates
+DEBUG: 01/02/2022 07:26:24 Task complete
+DEBUG: 01/02/2022 07:26:24 Received task
+DEBUG: 01/02/2022 07:26:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:26:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:26:45 Received 0 new updates
+DEBUG: 01/02/2022 07:26:45 Task complete
+DEBUG: 01/02/2022 07:26:45 Received task
+DEBUG: 01/02/2022 07:26:45 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:27:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:27:06 Received 0 new updates
+DEBUG: 01/02/2022 07:27:06 Task complete
+DEBUG: 01/02/2022 07:27:06 Received task
+DEBUG: 01/02/2022 07:27:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:27:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:27:26 Received 0 new updates
+DEBUG: 01/02/2022 07:27:26 Task complete
+DEBUG: 01/02/2022 07:27:26 Received task
+DEBUG: 01/02/2022 07:27:26 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:27:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:27:46 Received 0 new updates
+DEBUG: 01/02/2022 07:27:46 Task complete
+DEBUG: 01/02/2022 07:27:46 Received task
+DEBUG: 01/02/2022 07:27:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:28:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:28:06 Received 0 new updates
+DEBUG: 01/02/2022 07:28:06 Task complete
+DEBUG: 01/02/2022 07:28:06 Received task
+DEBUG: 01/02/2022 07:28:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:28:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:28:26 Received 0 new updates
+DEBUG: 01/02/2022 07:28:26 Task complete
+DEBUG: 01/02/2022 07:28:26 Received task
+DEBUG: 01/02/2022 07:28:26 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:28:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:28:47 Received 0 new updates
+DEBUG: 01/02/2022 07:28:47 Task complete
+DEBUG: 01/02/2022 07:28:47 Received task
+DEBUG: 01/02/2022 07:28:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:29:07 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:29:07 Received 0 new updates
+DEBUG: 01/02/2022 07:29:07 Task complete
+DEBUG: 01/02/2022 07:29:07 Received task
+DEBUG: 01/02/2022 07:29:07 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:29:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:29:27 Received 0 new updates
+DEBUG: 01/02/2022 07:29:27 Task complete
+DEBUG: 01/02/2022 07:29:27 Received task
+DEBUG: 01/02/2022 07:29:27 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:29:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:29:47 Received 0 new updates
+DEBUG: 01/02/2022 07:29:47 Task complete
+DEBUG: 01/02/2022 07:29:47 Received task
+DEBUG: 01/02/2022 07:29:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:30:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:30:08 Received 0 new updates
+DEBUG: 01/02/2022 07:30:08 Task complete
+DEBUG: 01/02/2022 07:30:08 Received task
+DEBUG: 01/02/2022 07:30:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:30:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:30:28 Received 0 new updates
+DEBUG: 01/02/2022 07:30:28 Task complete
+DEBUG: 01/02/2022 07:30:28 Received task
+DEBUG: 01/02/2022 07:30:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:30:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:30:48 Received 0 new updates
+DEBUG: 01/02/2022 07:30:48 Task complete
+DEBUG: 01/02/2022 07:30:48 Received task
+DEBUG: 01/02/2022 07:30:48 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:31:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:31:08 Received 0 new updates
+DEBUG: 01/02/2022 07:31:08 Task complete
+DEBUG: 01/02/2022 07:31:08 Received task
+DEBUG: 01/02/2022 07:31:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:31:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:31:28 Received 0 new updates
+DEBUG: 01/02/2022 07:31:28 Task complete
+DEBUG: 01/02/2022 07:31:28 Received task
+DEBUG: 01/02/2022 07:31:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:31:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:31:49 Received 0 new updates
+DEBUG: 01/02/2022 07:31:49 Task complete
+DEBUG: 01/02/2022 07:31:49 Received task
+DEBUG: 01/02/2022 07:31:49 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:32:09 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:32:09 Received 0 new updates
+DEBUG: 01/02/2022 07:32:09 Task complete
+DEBUG: 01/02/2022 07:32:09 Received task
+DEBUG: 01/02/2022 07:32:09 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:32:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:32:29 Received 0 new updates
+DEBUG: 01/02/2022 07:32:29 Task complete
+DEBUG: 01/02/2022 07:32:29 Received task
+DEBUG: 01/02/2022 07:32:29 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:32:49 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:32:49 Received 0 new updates
+DEBUG: 01/02/2022 07:32:49 Task complete
+DEBUG: 01/02/2022 07:32:49 Received task
+DEBUG: 01/02/2022 07:32:49 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:33:10 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:33:10 Received 0 new updates
+DEBUG: 01/02/2022 07:33:10 Task complete
+DEBUG: 01/02/2022 07:33:10 Received task
+DEBUG: 01/02/2022 07:33:10 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:33:30 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:33:30 Received 0 new updates
+DEBUG: 01/02/2022 07:33:30 Task complete
+DEBUG: 01/02/2022 07:33:30 Received task
+DEBUG: 01/02/2022 07:33:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:33:50 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:33:50 Received 0 new updates
+DEBUG: 01/02/2022 07:33:50 Task complete
+DEBUG: 01/02/2022 07:33:50 Received task
+DEBUG: 01/02/2022 07:33:50 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:34:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:34:11 Received 0 new updates
+DEBUG: 01/02/2022 07:34:11 Task complete
+DEBUG: 01/02/2022 07:34:11 Received task
+DEBUG: 01/02/2022 07:34:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:34:31 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:34:31 Received 0 new updates
+DEBUG: 01/02/2022 07:34:31 Task complete
+DEBUG: 01/02/2022 07:34:31 Received task
+DEBUG: 01/02/2022 07:34:31 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:34:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:34:51 Received 0 new updates
+DEBUG: 01/02/2022 07:34:51 Task complete
+DEBUG: 01/02/2022 07:34:51 Received task
+DEBUG: 01/02/2022 07:34:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:35:11 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:35:11 Received 0 new updates
+DEBUG: 01/02/2022 07:35:11 Task complete
+DEBUG: 01/02/2022 07:35:11 Received task
+DEBUG: 01/02/2022 07:35:11 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:35:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:35:32 Received 0 new updates
+DEBUG: 01/02/2022 07:35:32 Task complete
+DEBUG: 01/02/2022 07:35:32 Received task
+DEBUG: 01/02/2022 07:35:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:35:52 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:35:52 Received 0 new updates
+DEBUG: 01/02/2022 07:35:52 Task complete
+DEBUG: 01/02/2022 07:35:52 Received task
+DEBUG: 01/02/2022 07:35:52 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:36:12 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:36:12 Received 0 new updates
+DEBUG: 01/02/2022 07:36:12 Task complete
+DEBUG: 01/02/2022 07:36:12 Received task
+DEBUG: 01/02/2022 07:36:12 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:36:32 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:36:32 Received 0 new updates
+DEBUG: 01/02/2022 07:36:32 Task complete
+DEBUG: 01/02/2022 07:36:32 Received task
+DEBUG: 01/02/2022 07:36:32 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:36:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:36:53 Received 0 new updates
+DEBUG: 01/02/2022 07:36:53 Task complete
+DEBUG: 01/02/2022 07:36:53 Received task
+DEBUG: 01/02/2022 07:36:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:37:13 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:37:13 Received 0 new updates
+DEBUG: 01/02/2022 07:37:13 Task complete
+DEBUG: 01/02/2022 07:37:13 Received task
+DEBUG: 01/02/2022 07:37:13 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:37:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:37:33 Received 0 new updates
+DEBUG: 01/02/2022 07:37:33 Task complete
+DEBUG: 01/02/2022 07:37:33 Received task
+DEBUG: 01/02/2022 07:37:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:37:54 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:37:54 Received 0 new updates
+DEBUG: 01/02/2022 07:37:54 Task complete
+DEBUG: 01/02/2022 07:37:54 Received task
+DEBUG: 01/02/2022 07:37:54 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:38:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:38:14 Received 0 new updates
+DEBUG: 01/02/2022 07:38:14 Task complete
+DEBUG: 01/02/2022 07:38:14 Received task
+DEBUG: 01/02/2022 07:38:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:38:34 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:38:34 Received 0 new updates
+DEBUG: 01/02/2022 07:38:34 Task complete
+DEBUG: 01/02/2022 07:38:34 Received task
+DEBUG: 01/02/2022 07:38:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:38:54 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:38:54 Received 0 new updates
+DEBUG: 01/02/2022 07:38:54 Task complete
+DEBUG: 01/02/2022 07:38:54 Received task
+DEBUG: 01/02/2022 07:38:54 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:39:14 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:39:14 Received 0 new updates
+DEBUG: 01/02/2022 07:39:14 Task complete
+DEBUG: 01/02/2022 07:39:14 Received task
+DEBUG: 01/02/2022 07:39:14 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:39:35 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:39:35 Received 0 new updates
+DEBUG: 01/02/2022 07:39:35 Task complete
+DEBUG: 01/02/2022 07:39:35 Received task
+DEBUG: 01/02/2022 07:39:35 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:39:55 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:39:55 Received 0 new updates
+DEBUG: 01/02/2022 07:39:55 Task complete
+DEBUG: 01/02/2022 07:39:55 Received task
+DEBUG: 01/02/2022 07:39:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:40:15 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:40:15 Received 0 new updates
+DEBUG: 01/02/2022 07:40:15 Task complete
+DEBUG: 01/02/2022 07:40:15 Received task
+DEBUG: 01/02/2022 07:40:15 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:40:36 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:40:36 Received 0 new updates
+DEBUG: 01/02/2022 07:40:36 Task complete
+DEBUG: 01/02/2022 07:40:36 Received task
+DEBUG: 01/02/2022 07:40:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:40:56 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:40:56 Received 0 new updates
+DEBUG: 01/02/2022 07:40:56 Task complete
+DEBUG: 01/02/2022 07:40:56 Received task
+DEBUG: 01/02/2022 07:40:56 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:41:16 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:41:16 Received 0 new updates
+DEBUG: 01/02/2022 07:41:16 Task complete
+DEBUG: 01/02/2022 07:41:16 Received task
+DEBUG: 01/02/2022 07:41:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:41:36 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:41:36 Received 0 new updates
+DEBUG: 01/02/2022 07:41:36 Task complete
+DEBUG: 01/02/2022 07:41:36 Received task
+DEBUG: 01/02/2022 07:41:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:41:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:41:57 Received 0 new updates
+DEBUG: 01/02/2022 07:41:57 Task complete
+DEBUG: 01/02/2022 07:41:57 Received task
+DEBUG: 01/02/2022 07:41:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:42:17 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:42:17 Received 0 new updates
+DEBUG: 01/02/2022 07:42:17 Task complete
+DEBUG: 01/02/2022 07:42:17 Received task
+DEBUG: 01/02/2022 07:42:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:42:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:42:37 Received 0 new updates
+DEBUG: 01/02/2022 07:42:37 Task complete
+DEBUG: 01/02/2022 07:42:37 Received task
+DEBUG: 01/02/2022 07:42:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:42:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:42:57 Received 0 new updates
+DEBUG: 01/02/2022 07:42:57 Task complete
+DEBUG: 01/02/2022 07:42:57 Received task
+DEBUG: 01/02/2022 07:42:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:43:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:43:18 Received 0 new updates
+DEBUG: 01/02/2022 07:43:18 Task complete
+DEBUG: 01/02/2022 07:43:18 Received task
+DEBUG: 01/02/2022 07:43:18 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:43:38 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:43:38 Received 0 new updates
+DEBUG: 01/02/2022 07:43:38 Task complete
+DEBUG: 01/02/2022 07:43:38 Received task
+DEBUG: 01/02/2022 07:43:38 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:43:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:43:58 Received 0 new updates
+DEBUG: 01/02/2022 07:43:58 Task complete
+DEBUG: 01/02/2022 07:43:58 Received task
+DEBUG: 01/02/2022 07:43:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:44:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:44:18 Received 0 new updates
+DEBUG: 01/02/2022 07:44:18 Task complete
+DEBUG: 01/02/2022 07:44:18 Received task
+DEBUG: 01/02/2022 07:44:18 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:44:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:44:39 Received 0 new updates
+DEBUG: 01/02/2022 07:44:39 Task complete
+DEBUG: 01/02/2022 07:44:39 Received task
+DEBUG: 01/02/2022 07:44:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:44:59 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:44:59 Received 0 new updates
+DEBUG: 01/02/2022 07:44:59 Task complete
+DEBUG: 01/02/2022 07:44:59 Received task
+DEBUG: 01/02/2022 07:44:59 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:45:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:45:19 Received 0 new updates
+DEBUG: 01/02/2022 07:45:19 Task complete
+DEBUG: 01/02/2022 07:45:19 Received task
+DEBUG: 01/02/2022 07:45:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:45:39 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:45:39 Received 0 new updates
+DEBUG: 01/02/2022 07:45:39 Task complete
+DEBUG: 01/02/2022 07:45:39 Received task
+DEBUG: 01/02/2022 07:45:39 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:46:00 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:46:00 Received 0 new updates
+DEBUG: 01/02/2022 07:46:00 Task complete
+DEBUG: 01/02/2022 07:46:00 Received task
+DEBUG: 01/02/2022 07:46:00 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:46:20 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:46:20 Received 0 new updates
+DEBUG: 01/02/2022 07:46:20 Task complete
+DEBUG: 01/02/2022 07:46:20 Received task
+DEBUG: 01/02/2022 07:46:20 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:46:40 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:46:40 Received 0 new updates
+DEBUG: 01/02/2022 07:46:40 Task complete
+DEBUG: 01/02/2022 07:46:40 Received task
+DEBUG: 01/02/2022 07:46:40 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:47:01 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:47:01 Received 0 new updates
+DEBUG: 01/02/2022 07:47:01 Task complete
+DEBUG: 01/02/2022 07:47:01 Received task
+DEBUG: 01/02/2022 07:47:01 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:47:21 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:47:21 Received 0 new updates
+DEBUG: 01/02/2022 07:47:21 Task complete
+DEBUG: 01/02/2022 07:47:21 Received task
+DEBUG: 01/02/2022 07:47:21 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:47:41 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:47:41 Received 0 new updates
+DEBUG: 01/02/2022 07:47:41 Task complete
+DEBUG: 01/02/2022 07:47:41 Received task
+DEBUG: 01/02/2022 07:47:41 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:48:02 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:48:02 Received 0 new updates
+DEBUG: 01/02/2022 07:48:02 Task complete
+DEBUG: 01/02/2022 07:48:02 Received task
+DEBUG: 01/02/2022 07:48:02 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:48:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:48:23 Received 0 new updates
+DEBUG: 01/02/2022 07:48:23 Task complete
+DEBUG: 01/02/2022 07:48:23 Received task
+DEBUG: 01/02/2022 07:48:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:48:43 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:48:43 Received 0 new updates
+DEBUG: 01/02/2022 07:48:43 Task complete
+DEBUG: 01/02/2022 07:48:43 Received task
+DEBUG: 01/02/2022 07:48:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:49:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:49:03 Received 0 new updates
+DEBUG: 01/02/2022 07:49:03 Task complete
+DEBUG: 01/02/2022 07:49:03 Received task
+DEBUG: 01/02/2022 07:49:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:49:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/02/2022 07:49:23 Received 0 new updates
+DEBUG: 01/02/2022 07:49:23 Task complete
+DEBUG: 01/02/2022 07:49:23 Received task
+DEBUG: 01/02/2022 07:49:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918306, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/02/2022 07:49:49 ReadTimeout occurred, args=(ReadTimeoutError("HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)"),)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 1374, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1273, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/ssl.py", line 1129, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 447, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 336, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 411, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 391, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates, long_polling_timeout)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 324, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 151, in _make_request
+    result = _get_req_session().request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+DEBUG: 01/03/2022 02:32:35 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/03/2022 02:32:36 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/03/2022 02:32:36 Started polling.
+DEBUG: 01/03/2022 02:32:36 Received task
+DEBUG: 01/03/2022 02:32:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:32:36 The server returned: 'b'{"ok":true,"result":[{"update_id":913918306,\n"channel_post":{"message_id":927,"sender_chat":{"id":-1001543877646,"title":"FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019","type":"channel"},"chat":{"id":-1001543877646,"title":"FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019","type":"channel"},"date":1641150077,"forward_from_chat":{"id":-1001680952584,"title":"Falcons Academy \\ud83e\\udeb6","type":"channel"},"forward_from_message_id":147,"forward_date":1638743235,"video":{"duration":91,"width":720,"height":848,"file_name":"IMG_7477.MP4","mime_type":"video/mp4","thumb":{"file_id":"AAMCBAADHQJcBbQOAAIDn2HR9n1HZbfYcBthIzuODDNPUfm_AAJVCgAC-aN4UcgoQqqLXdAcAQAHbQADIwQ","file_unique_id":"AQADVQoAAvmjeFFy","file_size":6490,"width":272,"height":320},"file_id":"BAACAgQAAx0CXAW0DgACA59h0fZ9R2W32HAbYSM7jgwzT1H5vwACVQoAAvmjeFHIKEKqi13QHCME","file_unique_id":"AgADVQoAAvmjeFE","file_size":33300642},"caption":"- \\u0637\\u0631\\u064a\\u0642\\u0629 \\u0627\\u0633\\u062a\\u062e\\u062f\\u0627\\u0645 \\u062e\\u0627\\u0635\\u064a\\u0629 OCO \\u0641\\u064a \\u0645\\u0646\\u0635\\u0629 \\u0628\\u0627\\u064a\\u0646\\u0646\\u0633 \\u0644\\u062a\\u0637\\u0628\\u064a\\u0642 \\u0627\\u0644\\u062a\\u0648\\u0635\\u064a\\u0627\\u062a \\u0648\\u0628\\u064a\\u0639 \\u0627\\u0644\\u0643\\u0645\\u064a\\u0627\\u062a \\u062d\\u0633\\u0628 \\u0627\\u0644\\u0627\\u0647\\u062f\\u0627\\u0641 \\u0627\\u0644\\u0645\\u062d\\u062f\\u062f\\u0629 \\u2705\\n\\n- \\u0634\\u0631\\u062d \\u0639\\u0645\\u0644\\u064a \\ud83c\\udfa5"}},{"update_id":913918307,\n"message":{"message_id":111,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641216728,"text":"/adduser apecie","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 01/03/2022 02:32:36 Received 2 new updates
+DEBUG: 01/03/2022 02:32:36 Task complete
+DEBUG: 01/03/2022 02:32:36 Received task
+DEBUG: 01/03/2022 02:32:36 Received task
+DEBUG: 01/03/2022 02:32:36 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918308, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:32:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:32:57 Received 0 new updates
+DEBUG: 01/03/2022 02:32:57 Task complete
+DEBUG: 01/03/2022 02:32:57 Received task
+DEBUG: 01/03/2022 02:32:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918308, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:33:17 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:33:17 Received 0 new updates
+DEBUG: 01/03/2022 02:33:17 Task complete
+DEBUG: 01/03/2022 02:33:17 Received task
+DEBUG: 01/03/2022 02:33:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918308, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:33:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:33:37 Received 0 new updates
+DEBUG: 01/03/2022 02:33:37 Task complete
+DEBUG: 01/03/2022 02:33:37 Received task
+DEBUG: 01/03/2022 02:33:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918308, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:33:57 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:33:57 Received 0 new updates
+DEBUG: 01/03/2022 02:33:57 Task complete
+DEBUG: 01/03/2022 02:33:57 Received task
+DEBUG: 01/03/2022 02:33:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918308, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:34:01 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/03/2022 02:34:01 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/03/2022 02:34:01 Started polling.
+DEBUG: 01/03/2022 02:34:01 Received task
+DEBUG: 01/03/2022 02:34:01 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:34:15 The server returned: 'b'{"ok":true,"result":[{"update_id":913918308,\n"message":{"message_id":112,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641216838,"text":"/aduser apecie","entities":[{"offset":0,"length":7,"type":"bot_command"}]}}]}''
+DEBUG: 01/03/2022 02:34:15 Received 1 new updates
+DEBUG: 01/03/2022 02:34:15 Task complete
+DEBUG: 01/03/2022 02:34:15 Received task
+DEBUG: 01/03/2022 02:34:15 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918309, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:34:35 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:34:35 Received 0 new updates
+DEBUG: 01/03/2022 02:34:35 Task complete
+DEBUG: 01/03/2022 02:34:35 Received task
+DEBUG: 01/03/2022 02:34:35 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918309, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:34:55 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:34:55 Received 0 new updates
+DEBUG: 01/03/2022 02:34:55 Task complete
+DEBUG: 01/03/2022 02:34:55 Received task
+DEBUG: 01/03/2022 02:34:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918309, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:35:04 The server returned: 'b'{"ok":true,"result":[{"update_id":913918309,\n"message":{"message_id":113,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641216887,"text":"/adduser apecie","entities":[{"offset":0,"length":8,"type":"bot_command"}]}}]}''
+DEBUG: 01/03/2022 02:35:04 Received 1 new updates
+DEBUG: 01/03/2022 02:35:04 Task complete
+DEBUG: 01/03/2022 02:35:04 Received task
+DEBUG: 01/03/2022 02:35:04 Received task
+DEBUG: 01/03/2022 02:35:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:35:17 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': 'User Added Successfully'} files=None
+DEBUG: 01/03/2022 02:35:19 The server returned: 'b'{"ok":true,"result":{"message_id":114,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641216902,"text":"User Added Successfully"}}''
+DEBUG: 01/03/2022 02:35:19 Task complete
+DEBUG: 01/03/2022 02:35:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:35:25 Received 0 new updates
+DEBUG: 01/03/2022 02:35:25 Task complete
+DEBUG: 01/03/2022 02:35:25 Received task
+DEBUG: 01/03/2022 02:35:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:35:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:35:45 Received 0 new updates
+DEBUG: 01/03/2022 02:35:45 Task complete
+DEBUG: 01/03/2022 02:35:45 Received task
+DEBUG: 01/03/2022 02:35:45 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:36:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:36:05 Received 0 new updates
+DEBUG: 01/03/2022 02:36:05 Task complete
+DEBUG: 01/03/2022 02:36:05 Received task
+DEBUG: 01/03/2022 02:36:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:36:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:36:25 Received 0 new updates
+DEBUG: 01/03/2022 02:36:25 Task complete
+DEBUG: 01/03/2022 02:36:25 Received task
+DEBUG: 01/03/2022 02:36:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:36:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:36:45 Received 0 new updates
+DEBUG: 01/03/2022 02:36:45 Task complete
+DEBUG: 01/03/2022 02:36:45 Received task
+DEBUG: 01/03/2022 02:36:45 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:37:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:37:06 Received 0 new updates
+DEBUG: 01/03/2022 02:37:06 Task complete
+DEBUG: 01/03/2022 02:37:06 Received task
+DEBUG: 01/03/2022 02:37:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:37:26 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:37:26 Received 0 new updates
+DEBUG: 01/03/2022 02:37:26 Task complete
+DEBUG: 01/03/2022 02:37:26 Received task
+DEBUG: 01/03/2022 02:37:26 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:37:46 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:37:46 Received 0 new updates
+DEBUG: 01/03/2022 02:37:46 Task complete
+DEBUG: 01/03/2022 02:37:46 Received task
+DEBUG: 01/03/2022 02:37:46 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:38:06 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:38:06 Received 0 new updates
+DEBUG: 01/03/2022 02:38:06 Task complete
+DEBUG: 01/03/2022 02:38:06 Received task
+DEBUG: 01/03/2022 02:38:06 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:38:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:38:27 Received 0 new updates
+DEBUG: 01/03/2022 02:38:27 Task complete
+DEBUG: 01/03/2022 02:38:27 Received task
+DEBUG: 01/03/2022 02:38:27 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:38:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:38:47 Received 0 new updates
+DEBUG: 01/03/2022 02:38:47 Task complete
+DEBUG: 01/03/2022 02:38:47 Received task
+DEBUG: 01/03/2022 02:38:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:39:07 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:39:07 Received 0 new updates
+DEBUG: 01/03/2022 02:39:07 Task complete
+DEBUG: 01/03/2022 02:39:07 Received task
+DEBUG: 01/03/2022 02:39:07 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:39:27 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:39:27 Received 0 new updates
+DEBUG: 01/03/2022 02:39:27 Task complete
+DEBUG: 01/03/2022 02:39:27 Received task
+DEBUG: 01/03/2022 02:39:27 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:39:47 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:39:47 Received 0 new updates
+DEBUG: 01/03/2022 02:39:47 Task complete
+DEBUG: 01/03/2022 02:39:47 Received task
+DEBUG: 01/03/2022 02:39:47 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:40:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:40:08 Received 0 new updates
+DEBUG: 01/03/2022 02:40:08 Task complete
+DEBUG: 01/03/2022 02:40:08 Received task
+DEBUG: 01/03/2022 02:40:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:40:28 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:40:28 Received 0 new updates
+DEBUG: 01/03/2022 02:40:28 Task complete
+DEBUG: 01/03/2022 02:40:28 Received task
+DEBUG: 01/03/2022 02:40:28 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:40:48 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:40:48 Received 0 new updates
+DEBUG: 01/03/2022 02:40:48 Task complete
+DEBUG: 01/03/2022 02:40:48 Received task
+DEBUG: 01/03/2022 02:40:48 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:41:08 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:41:08 Received 0 new updates
+DEBUG: 01/03/2022 02:41:08 Task complete
+DEBUG: 01/03/2022 02:41:08 Received task
+DEBUG: 01/03/2022 02:41:08 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:41:29 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:41:29 Received 0 new updates
+DEBUG: 01/03/2022 02:41:29 Task complete
+DEBUG: 01/03/2022 02:41:29 Received task
+DEBUG: 01/03/2022 02:41:29 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918310, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:41:43 The server returned: 'b'{"ok":true,"result":[{"update_id":913918310,\n"chat_join_request":{"chat":{"id":-1001543877646,"title":"FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019","type":"channel"},"from":{"id":1984581767,"is_bot":false,"first_name":"Lead2","username":"apecie"},"date":1641217285,"invite_link":{"invite_link":"https://t.me/+9Ie_hxv5zO5mYTk0","creator":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"pending_join_request_count":1,"creates_join_request":true,"is_primary":false,"is_revoked":false}}}]}''
+DEBUG: 01/03/2022 02:41:43 Received 1 new updates
+DEBUG: 01/03/2022 02:41:43 Task complete
+DEBUG: 01/03/2022 02:41:43 Received task
+DEBUG: 01/03/2022 02:41:43 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:42:03 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:42:03 Received 0 new updates
+DEBUG: 01/03/2022 02:42:03 Task complete
+DEBUG: 01/03/2022 02:42:03 Received task
+DEBUG: 01/03/2022 02:42:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:42:23 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:42:23 Received 0 new updates
+DEBUG: 01/03/2022 02:42:23 Task complete
+DEBUG: 01/03/2022 02:42:23 Received task
+DEBUG: 01/03/2022 02:42:23 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:42:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:42:44 Received 0 new updates
+DEBUG: 01/03/2022 02:42:44 Task complete
+DEBUG: 01/03/2022 02:42:44 Received task
+DEBUG: 01/03/2022 02:42:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:43:04 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:43:04 Received 0 new updates
+DEBUG: 01/03/2022 02:43:04 Task complete
+DEBUG: 01/03/2022 02:43:04 Received task
+DEBUG: 01/03/2022 02:43:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:43:24 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:43:24 Received 0 new updates
+DEBUG: 01/03/2022 02:43:24 Task complete
+DEBUG: 01/03/2022 02:43:24 Received task
+DEBUG: 01/03/2022 02:43:24 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:43:44 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:43:44 Received 0 new updates
+DEBUG: 01/03/2022 02:43:44 Task complete
+DEBUG: 01/03/2022 02:43:44 Received task
+DEBUG: 01/03/2022 02:43:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:44:05 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:44:05 Received 0 new updates
+DEBUG: 01/03/2022 02:44:05 Task complete
+DEBUG: 01/03/2022 02:44:05 Received task
+DEBUG: 01/03/2022 02:44:05 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:44:25 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:44:25 Received 0 new updates
+DEBUG: 01/03/2022 02:44:25 Task complete
+DEBUG: 01/03/2022 02:44:25 Received task
+DEBUG: 01/03/2022 02:44:25 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/03/2022 02:44:45 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/03/2022 02:44:45 Received 0 new updates
+DEBUG: 01/03/2022 02:44:45 Task complete
+DEBUG: 01/03/2022 02:44:45 Received task
+DEBUG: 01/03/2022 02:44:45 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918311, 'timeout': 20, 'long_polling_timeout': 20} files=None

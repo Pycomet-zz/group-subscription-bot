@@ -7,7 +7,9 @@ def removeUser(msg):
     Removes A User From Group
     """
     message = msg.text.split(" ")
-    user = client.get_entity(int(message[1]))
+    user = loop.run_until_complete(
+        client.get_entity(message[1])
+    )
 
     if user is not None:
         # Schedule User
