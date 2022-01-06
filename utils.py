@@ -44,10 +44,6 @@ def add_user(user_id:int):
     except Exception as e:
         logging.error(e)
         return False
-    
-
-
-
 
 
 def remove_user(user_id):

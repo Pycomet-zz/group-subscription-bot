@@ -56,19 +56,16 @@ def export(members):
             if user.bot == False:
                 if user.id not in administrators:
 
-                    if str(user.status) == "UserStatusRecently()":
-                        status = "Last Seen Not Long Ago"
-                    elif str(user.status) == "UserStatusLastWeek()":
-                        status = "Last Seen Last Week"
-                    elif str(user.status) == "UserStatusLastMonth()":
-                        status = "Last Seen Last Month"
-                    else:
-                        status = "Not Active For A While"
+                    try:
+                        joined_date = user.participant.date
+                        joined = date.today() - joined_date.date()
+                    except Exception as e:
+                        joined = "Admin User"
 
                     writer.writerow({
                         'First Name': user.first_name,
                         'Last Name': user.last_name,
                         'Username': user.username,
                         'Id': int(user.id),
-                        'User Status': status
+                        'Joined': joined
                     })

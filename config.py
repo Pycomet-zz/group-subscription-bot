@@ -37,7 +37,7 @@ logging.basicConfig(filename="extract.log", format='%(levelname)s: %(asctime)s %
 
 TOKEN = os.getenv('TOKEN')
 
-DEBUG = False
+DEBUG = True
 SERVER_URL = os.getenv("SERVER_URL")
 
 GROUP = os.getenv('GROUP')
@@ -50,7 +50,7 @@ client = TelegramClient("session", api_id=api_id, api_hash=api_hash, loop=loop)
 client.start() # Starting Telegram Bot API
 
 
-fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'User Status']
+fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'Joined']
 
 class Config:
     SCHEDULER_API_ENABLED = True
