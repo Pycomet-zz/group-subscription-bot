@@ -4,6 +4,7 @@ import re
 import csv
 from flask import Flask, request
 from flask_apscheduler import APScheduler
+from telethon.sessions import StringSession
 from telethon.tl.functions.channels import InviteToChannelRequest
 from telethon.tl.functions.messages import DeleteChatUserRequest
 from datetime import date
@@ -37,17 +38,18 @@ logging.basicConfig(filename="extract.log", format='%(levelname)s: %(asctime)s %
 
 TOKEN = os.getenv('TOKEN')
 
-DEBUG = False 
+DEBUG = True
 SERVER_URL = os.getenv("SERVER_URL")
 
 GROUP = os.getenv('GROUP')
-
+SESSION = os.getenv('SESSION')
 
 ## Connection of all the integrated APIs
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
-client = TelegramClient("session", api_id=api_id, api_hash=api_hash, loop=loop)
+client = TelegramClient(StringSession(SESSION), api_id=api_id, api_hash=api_hash, loop=loop)
 client.start() # Starting Telegram Bot API
+
 
 
 fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'Joined']
