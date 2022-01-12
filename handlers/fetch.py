@@ -43,6 +43,27 @@ def export(members):
     """
     Write to Users.csv
     """
+    # Sorting the members by date
+    data = []
+    #Input scraped content
+    for user in members:
+        if user.bot == False:
+            if user.id not in administrators:
+
+                try:
+                    joined_date = user.participant.date
+                    joined = date.today() - joined_date.date()
+                except Exception as e:
+                    joined = "Admin User"
+                
+                data.append({
+                    'First Name': user.first_name,
+                    'Last Name': user.last_name,
+                    'Username': user.username,
+                    'User Id': int(user.id),
+                    'Joined Days Count': joined.days
+                })
+    data.sort(key=lambda x: x[-1], reverse=True)
 
     #Open csv file
     with open("Users.csv", "w", encoding="utf8") as file:
@@ -50,22 +71,4 @@ def export(members):
         #Input headers
         writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader() # write headers for columns
-
-        #Input scraped content
-        for user in members:
-            if user.bot == False:
-                if user.id not in administrators:
-
-                    try:
-                        joined_date = user.participant.date
-                        joined = date.today() - joined_date.date()
-                    except Exception as e:
-                        joined = "Admin User"
-
-                    writer.writerow({
-                        'First Name': user.first_name,
-                        'Last Name': user.last_name,
-                        'Username': user.username,
-                        'Id': int(user.id),
-                        'Joined': joined
-                    })
+        [writer.writerow(user) for user in data]

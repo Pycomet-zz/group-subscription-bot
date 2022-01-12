@@ -52,7 +52,7 @@ client.start() # Starting Telegram Bot API
 
 
 
-fieldnames = ['First Name', 'Last Name', 'Username', 'Id', 'Joined']
+fieldnames = ['First Name', 'Last Name', 'Username', 'User Id', 'Joined Days Count']
 
 class Config:
     SCHEDULER_API_ENABLED = True

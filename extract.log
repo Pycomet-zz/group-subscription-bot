@@ -1,0 +1,93 @@
+DEBUG: 01/12/2022 10:54:34 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/12/2022 10:54:35 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+INFO: 01/12/2022 10:54:35 Started polling.
+DEBUG: 01/12/2022 10:54:35 Received task
+DEBUG: 01/12/2022 10:54:35 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/12/2022 10:54:55 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/12/2022 10:54:55 Received 0 new updates
+DEBUG: 01/12/2022 10:54:55 Task complete
+DEBUG: 01/12/2022 10:54:55 Received task
+DEBUG: 01/12/2022 10:54:55 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/12/2022 10:54:58 The server returned: 'b'{"ok":true,"result":[{"update_id":913918467,\n"message":{"message_id":295,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641981272,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/12/2022 10:54:58 Received 1 new updates
+DEBUG: 01/12/2022 10:54:58 Task complete
+DEBUG: 01/12/2022 10:54:58 Received task
+DEBUG: 01/12/2022 10:54:58 Received task
+DEBUG: 01/12/2022 10:54:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918468, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/12/2022 10:55:04 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '570 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/12/2022 10:55:19 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/12/2022 10:55:19 Received 0 new updates
+DEBUG: 01/12/2022 10:55:19 Task complete
+DEBUG: 01/12/2022 10:55:19 Received task
+DEBUG: 01/12/2022 10:55:19 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918468, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/12/2022 10:55:29 ConnectTimeout occurred, args=(MaxRetryError("HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5015267130:AAEzA2wylvKHPnbYSybZdnn0KaEzOFBdekQ/sendMessage?chat_id=577180091&text=570+Subscribers+found+in+FALCONS+PREMIUM+%E2%9C%A8%F0%9F%A6%85%E2%80%99 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x103c5abf0>, 'Connection to api.telegram.org timed out. (connect timeout=15)'))"),)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/connection.py", line 96, in create_connection
+    raise err
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/connection.py", line 86, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x103c5abf0>, 'Connection to api.telegram.org timed out. (connect timeout=15)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/urllib3/util/retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5015267130:AAEzA2wylvKHPnbYSybZdnn0KaEzOFBdekQ/sendMessage?chat_id=577180091&text=570+Subscribers+found+in+FALCONS+PREMIUM+%E2%9C%A8%F0%9F%A6%85%E2%80%99 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x103c5abf0>, 'Connection to api.telegram.org timed out. (connect timeout=15)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 31, in pull_subscribers
+    bot.send_message(user.id, f"{numberOfMembers} Subscribers found in {channel.title}")
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/__init__.py", line 969, in send_message
+    apihelper.send_message(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 269, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/apihelper.py", line 151, in _make_request
+    result = _get_req_session().request(
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot5015267130:AAEzA2wylvKHPnbYSybZdnn0KaEzOFBdekQ/sendMessage?chat_id=577180091&text=570+Subscribers+found+in+FALCONS+PREMIUM+%E2%9C%A8%F0%9F%A6%85%E2%80%99 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x103c5abf0>, 'Connection to api.telegram.org timed out. (connect timeout=15)'))
+
+DEBUG: 01/12/2022 10:55:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/12/2022 10:55:37 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/12/2022 10:55:37 Started polling.
+DEBUG: 01/12/2022 10:55:37 Received task
+DEBUG: 01/12/2022 10:55:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/12/2022 10:55:44 The server returned: 'b'{"ok":true,"result":[{"update_id":913918468,\n"message":{"message_id":296,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1641981317,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}''
+DEBUG: 01/12/2022 10:55:44 Received 1 new updates
+DEBUG: 01/12/2022 10:55:44 Task complete
+DEBUG: 01/12/2022 10:55:44 Received task
+DEBUG: 01/12/2022 10:55:44 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': 'Welcome to Your Group Admin Bot', 'reply_to_message_id': 296} files=None
+DEBUG: 01/12/2022 10:55:44 Received task
+DEBUG: 01/12/2022 10:55:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918469, 'timeout': 20, 'long_polling_timeout': 20} files=None
