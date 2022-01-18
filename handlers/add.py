@@ -6,16 +6,15 @@ def addUser(msg):
     """
     Add User And Schedule Removal Date
     """
-    message = msg.text.split(" ")
+    # message = msg.text.split(" ")
 
-
-    user = loop.run_until_complete(
-        client.get_entity(message[1])
-    )
+    # user = loop.run_until_complete(
+    #     client.get_entity(message[1])
+    # )
 
     if user is not None:
         # Schedule User
-        status = add_user(user.id)
+        status = add_user(msg.from_user.id)
         if status == True:
             bot.send_message(
                 msg.from_user.id,
