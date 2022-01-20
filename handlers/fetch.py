@@ -61,7 +61,7 @@ def export(members):
                     'Last Name': user.last_name,
                     'Username': user.username,
                     'User Id': int(user.id),
-                    'Joined Days Count': joined.days
+                    'Joined Days Count': joined
                 })
     data.sort(key=lambda x: x[-1], reverse=True)
 
