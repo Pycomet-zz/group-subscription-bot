@@ -91,3 +91,137 @@ DEBUG: 01/12/2022 10:55:44 Received task
 DEBUG: 01/12/2022 10:55:44 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': 'Welcome to Your Group Admin Bot', 'reply_to_message_id': 296} files=None
 DEBUG: 01/12/2022 10:55:44 Received task
 DEBUG: 01/12/2022 10:55:44 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918469, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:29:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/22/2022 05:29:30 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook was deleted"}''
+INFO: 01/22/2022 05:29:30 Started polling.
+DEBUG: 01/22/2022 05:29:30 Received task
+DEBUG: 01/22/2022 05:29:30 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:29:51 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 05:29:51 Received 0 new updates
+DEBUG: 01/22/2022 05:29:51 Task complete
+DEBUG: 01/22/2022 05:29:51 Received task
+DEBUG: 01/22/2022 05:29:51 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:29:57 The server returned: 'b'{"ok":true,"result":[{"update_id":913918559,\n"message":{"message_id":399,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642825761,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/22/2022 05:29:57 Received 1 new updates
+DEBUG: 01/22/2022 05:29:57 Task complete
+DEBUG: 01/22/2022 05:29:57 Received task
+DEBUG: 01/22/2022 05:29:57 Received task
+DEBUG: 01/22/2022 05:29:57 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918560, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:30:03 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '591 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/22/2022 05:30:04 The server returned: 'b'{"ok":true,"result":{"message_id":400,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642825768,"text":"591 Subscribers found in FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019"}}''
+DEBUG: 01/22/2022 05:30:17 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 05:30:17 Received 0 new updates
+DEBUG: 01/22/2022 05:30:17 Task complete
+DEBUG: 01/22/2022 05:30:17 Received task
+DEBUG: 01/22/2022 05:30:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918560, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:30:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 05:30:37 Received 0 new updates
+DEBUG: 01/22/2022 05:30:37 Task complete
+DEBUG: 01/22/2022 05:30:37 Received task
+DEBUG: 01/22/2022 05:30:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918560, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:30:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 05:30:58 Received 0 new updates
+DEBUG: 01/22/2022 05:30:58 Task complete
+DEBUG: 01/22/2022 05:30:58 Received task
+DEBUG: 01/22/2022 05:30:58 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918560, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 05:31:07 KeyError occurred, args=(-1,)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 34, in pull_subscribers
+    export(members)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 66, in export
+    data.sort(key=lambda x: x[-1], reverse=True)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 66, in <lambda>
+    data.sort(key=lambda x: x[-1], reverse=True)
+KeyError: -1
+
+DEBUG: 01/22/2022 05:31:18 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 05:31:18 Received 0 new updates
+DEBUG: 01/22/2022 05:31:18 Task complete
+DEBUG: 01/22/2022 01:02:15 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/22/2022 01:02:16 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/22/2022 01:02:16 Started polling.
+DEBUG: 01/22/2022 01:02:16 Received task
+DEBUG: 01/22/2022 01:02:16 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:02:17 The server returned: 'b'{"ok":true,"result":[{"update_id":913918560,\n"message":{"message_id":401,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642852901,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/22/2022 01:02:17 Received 1 new updates
+DEBUG: 01/22/2022 01:02:17 Task complete
+DEBUG: 01/22/2022 01:02:17 Received task
+DEBUG: 01/22/2022 01:02:17 Received task
+DEBUG: 01/22/2022 01:02:17 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918561, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:02:24 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '591 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/22/2022 01:02:25 The server returned: 'b'{"ok":true,"result":{"message_id":402,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642852908,"text":"591 Subscribers found in FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019"}}''
+DEBUG: 01/22/2022 01:02:25 KeyError occurred, args=(-1,)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 34, in pull_subscribers
+    export(members)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 67, in export
+    data.sort(key=lambda x: x[-1], reverse=True)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 67, in <lambda>
+    data.sort(key=lambda x: x[-1], reverse=True)
+KeyError: -1
+
+DEBUG: 01/22/2022 01:02:37 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 01:02:37 Received 0 new updates
+DEBUG: 01/22/2022 01:02:37 Task complete
+DEBUG: 01/22/2022 01:03:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/22/2022 01:03:33 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/22/2022 01:03:33 Started polling.
+DEBUG: 01/22/2022 01:03:33 Received task
+DEBUG: 01/22/2022 01:03:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:03:37 The server returned: 'b'{"ok":true,"result":[{"update_id":913918561,\n"message":{"message_id":403,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642852981,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/22/2022 01:03:37 Received 1 new updates
+DEBUG: 01/22/2022 01:03:37 Task complete
+DEBUG: 01/22/2022 01:03:37 Received task
+DEBUG: 01/22/2022 01:03:37 Received task
+DEBUG: 01/22/2022 01:03:37 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918562, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:03:43 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '591 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/22/2022 01:03:43 The server returned: 'b'{"ok":true,"result":{"message_id":404,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642852987,"text":"591 Subscribers found in FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019"}}''
+DEBUG: 01/22/2022 01:03:43 TypeError occurred, args=("'<' not supported between instances of 'str' and 'int'",)
+Traceback (most recent call last):
+  File "/Users/macbookpro/.local/share/virtualenvs/group-subscription-bot-RcBPsUw9/lib/python3.10/site-packages/telebot/util.py", line 87, in run
+    task(*args, **kwargs)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 9, in fetcher
+    pull_subscribers(user)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 34, in pull_subscribers
+    export(members)
+  File "/Users/macbookpro/Documents/group-subscription-bot/handlers/fetch.py", line 67, in export
+    data.sort(key=lambda x: x['Joined Days Count'], reverse=True)
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+DEBUG: 01/22/2022 01:03:58 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 01:03:58 Received 0 new updates
+DEBUG: 01/22/2022 01:03:58 Task complete
+DEBUG: 01/22/2022 01:07:03 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/setWebhook params={'url': ''} files=None
+DEBUG: 01/22/2022 01:07:04 The server returned: 'b'{"ok":true,"result":true,"description":"Webhook is already deleted"}''
+INFO: 01/22/2022 01:07:04 Started polling.
+DEBUG: 01/22/2022 01:07:04 Received task
+DEBUG: 01/22/2022 01:07:04 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 1, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:07:13 The server returned: 'b'{"ok":true,"result":[{"update_id":913918562,\n"message":{"message_id":405,"from":{"id":577180091,"is_bot":false,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","language_code":"en"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642853196,"text":"/fetchusers","entities":[{"offset":0,"length":11,"type":"bot_command"}]}}]}''
+DEBUG: 01/22/2022 01:07:13 Received 1 new updates
+DEBUG: 01/22/2022 01:07:13 Task complete
+DEBUG: 01/22/2022 01:07:13 Received task
+DEBUG: 01/22/2022 01:07:13 Received task
+DEBUG: 01/22/2022 01:07:13 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918563, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:07:18 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendMessage params={'chat_id': '577180091', 'text': '591 Subscribers found in FALCONS PREMIUM ✨🦅’'} files=None
+DEBUG: 01/22/2022 01:07:19 The server returned: 'b'{"ok":true,"result":{"message_id":406,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642853202,"text":"591 Subscribers found in FALCONS PREMIUM \\u2728\\ud83e\\udd85\\u2019"}}''
+DEBUG: 01/22/2022 01:07:19 Request: method=post url=https://api.telegram.org/bot5015267130:{TOKEN}/sendDocument params={'chat_id': 577180091, 'caption': 'Extraction Complete!!'} files={'document': <_io.BufferedReader name='Users.csv'>}
+DEBUG: 01/22/2022 01:07:20 The server returned: 'b'{"ok":true,"result":{"message_id":407,"from":{"id":5015267130,"is_bot":true,"first_name":"subbot","username":"grpSubscribot"},"chat":{"id":577180091,"first_name":"Codefred \\ud83e\\udd13","username":"codefred","type":"private"},"date":1642853203,"document":{"file_name":"Users.csv","mime_type":"text/csv","file_id":"BQACAgEAAxkDAAIBl2Hr81N7osM3Sm7iepxfh00rluF5AAI3AgACzKFhR87ypoXK6KVnIwQ","file_unique_id":"AgADNwIAAsyhYUc","file_size":17704},"caption":"Extraction Complete!!"}}''
+DEBUG: 01/22/2022 01:07:20 Task complete
+DEBUG: 01/22/2022 01:07:33 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 01:07:33 Received 0 new updates
+DEBUG: 01/22/2022 01:07:33 Task complete
+DEBUG: 01/22/2022 01:07:33 Received task
+DEBUG: 01/22/2022 01:07:33 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918563, 'timeout': 20, 'long_polling_timeout': 20} files=None
+DEBUG: 01/22/2022 01:07:53 The server returned: 'b'{"ok":true,"result":[]}''
+DEBUG: 01/22/2022 01:07:53 Received 0 new updates
+DEBUG: 01/22/2022 01:07:53 Task complete
+DEBUG: 01/22/2022 01:07:53 Received task
+DEBUG: 01/22/2022 01:07:53 Request: method=get url=https://api.telegram.org/bot5015267130:{TOKEN}/getUpdates params={'offset': 913918563, 'timeout': 20, 'long_polling_timeout': 20} files=None

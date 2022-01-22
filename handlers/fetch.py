@@ -52,18 +52,19 @@ def export(members):
 
                 try:
                     joined_date = user.participant.date
-                    joined = date.today() - joined_date.date()
+                    join = date.today() - joined_date.date()
+                    joined = join.days
                 except Exception as e:
-                    joined = "Admin User"
+                    joined = "0"
                 
                 data.append({
                     'First Name': user.first_name,
                     'Last Name': user.last_name,
                     'Username': user.username,
                     'User Id': int(user.id),
-                    'Joined Days Count': joined
+                    'Joined Days Count': int(joined)
                 })
-    data.sort(key=lambda x: x[-1], reverse=True)
+    data.sort(key=lambda x: x['Joined Days Count'], reverse=True)
 
     #Open csv file
     with open("Users.csv", "w", encoding="utf8") as file:
