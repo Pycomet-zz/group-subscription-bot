@@ -24,8 +24,8 @@ def pull_subscribers(user):
         client.get_entity(int(GROUP))
     )
  
-    members = loop.run_until_complete(client.get_participants(channel, aggressive=True))
-    # members = loop.run_until_complete(client.get_participants(channel))
+    # members = loop.run_until_complete(client.get_participants(channel, aggressive=True))
+    members = loop.run_until_complete(client.get_participants(channel))
     
     numberOfMembers = len(members)
 
