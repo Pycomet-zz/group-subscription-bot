@@ -62,3 +62,34 @@ def remove_user(user_id):
     except Exception as e:
         logging.error(e)
         return False
+
+
+def payment_status(id) -> bool:
+    "Confirm payment session"
+
+    response = stripe.checkout.Session.retrieve(id)
+    status = response['payment_status']
+
+    if status == "unpaid":
+        return False
+    else:
+        return True
+
+
+def buy_plan():
+    "Create Session & Return Url"
+
+    result = stripe.checkout.Session.create(
+        success_url="https://example.com/success",
+        cancel_url="https://example.com/cancel",
+        payment_method_types=["card"],
+        line_items=[
+        {
+            "price": "price_1IeYKWC4t9kgnfYikDLPO8fQ",
+            "quantity": 1,
+        },
+        ],
+        mode="payment",
+    )
+
+    return result['url'], result['id']

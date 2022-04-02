@@ -2,6 +2,8 @@ import logging
 import os
 import re
 import csv
+import stripe
+import pyshorteners
 from flask import Flask, request
 from flask_apscheduler import APScheduler
 from telethon.sessions import StringSession
@@ -9,6 +11,7 @@ from telethon.tl.functions.channels import InviteToChannelRequest
 from telethon.tl.functions.messages import DeleteChatUserRequest
 from datetime import date
 import telegram
+import time
 import telebot
 import asyncio
 from telethon import TelegramClient
@@ -50,8 +53,6 @@ asyncio.set_event_loop(loop)
 client = TelegramClient(StringSession(SESSION), api_id=api_id, api_hash=api_hash, loop=loop)
 client.start() # Starting Telegram Bot API
 
-
-
 fieldnames = ['First Name', 'Last Name', 'Username', 'User Id', 'Joined Days Count']
 
 class Config:
@@ -59,6 +60,12 @@ class Config:
 
 scheduler = APScheduler()
 
+
+
+stripe.api_key = os.getenv("STRIPE_SECRET_KEY")
+
+
+shortener = pyshorteners.Shortener()
 
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)

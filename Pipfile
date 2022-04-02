@@ -11,6 +11,8 @@ python-dotenv = "*"
 pytelegrambotapi = "*"
 telethon = "*"
 flask-apscheduler = "*"
+stripe = "*"
+pyshorteners = "*"
 
 [dev-packages]
 
