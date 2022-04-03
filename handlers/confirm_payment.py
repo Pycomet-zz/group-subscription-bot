@@ -36,6 +36,7 @@ def check_payment_id(msg):
     else:
         bot.send_message(
             msg.from_user.id,
-            "You are not a subscribe. Please make sure you have paid for this month."
+            "You are not a subscribe! \n Please make sure you have paid for this month.",
+            parse_mode="html"
         )
 
