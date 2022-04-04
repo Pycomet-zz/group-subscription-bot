@@ -4,15 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+stripe = "*"
+pyshorteners = "*"
 flask = "*"
+telethon = "*"
+pytelegrambotapi = "*"
 python-telegram-bot = "*"
 goslate = "*"
 python-dotenv = "*"
-pytelegrambotapi = "*"
-telethon = "*"
-flask-apscheduler = "*"
-stripe = "*"
-pyshorteners = "*"
 
 [dev-packages]
 

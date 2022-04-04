@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8eb71045a5f133f38a4fcc14d0bf50d0ef1860dd82e83b5881b4ccc774fe9e0a"
+            "sha256": "85421f06647b2fc0cb43e8da0983e787003de1fa9f4ddbadf356112d59ff2467"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -61,13 +61,6 @@
             ],
             "index": "pypi",
             "version": "==2.1.1"
-        },
-        "flask-apscheduler": {
-            "hashes": [
-                "sha256:d60948d1f2be9eb4772f68c3308ba3f973755219d13947266f89292ad6df63fc"
-            ],
-            "index": "pypi",
-            "version": "==1.12.3"
         },
         "futures": {
             "hashes": [
@@ -194,14 +187,6 @@
             "index": "pypi",
             "version": "==4.4.0"
         },
-        "python-dateutil": {
-            "hashes": [
-                "sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86",
-                "sha256:961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"
-            ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
-            "version": "==2.8.2"
-        },
         "python-dotenv": {
             "hashes": [
                 "sha256:b7e3b04a59693c42c36f9ab1cc2acc46fa5df8c78e178fc33a8d4cd05c8d498f",
@@ -238,7 +223,7 @@
                 "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61",
                 "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"
             ],
-            "markers": "python_version >= '3'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
             "version": "==2.27.1"
         },
         "rsa": {
@@ -262,7 +247,7 @@
                 "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
                 "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==1.16.0"
         },
         "stripe": {
