@@ -16,7 +16,6 @@ import telebot
 import asyncio
 from telethon import TelegramClient
 from telebot import types
-import goslate
 import requests
 from dotenv import load_dotenv
 load_dotenv()
@@ -32,11 +31,10 @@ LANGUAGE = user.language
 # # Language setup
 # os.environ["LANGUAGE"] = "en"
 # LANGUAGE = os.getenv("LANGUAGE")
-translator = goslate.Goslate()
 
 ## Setup logs file for debugging
 logger = telebot.logger
-telebot.logger.setLevel(logging.DEBUG)
+telebot.logger.setLevel(logging.INFO)
 logging.basicConfig(filename="extract.log", format='%(levelname)s: %(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S')
 
 TOKEN = os.getenv('TOKEN')
@@ -52,6 +50,7 @@ loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
 client = TelegramClient(StringSession(SESSION), api_id=api_id, api_hash=api_hash, loop=loop)
 client.start() # Starting Telegram Bot API
+print(client.session.save())
 
 fieldnames = ['First Name', 'Last Name', 'Username', 'User Id', 'Joined Days Count']
 

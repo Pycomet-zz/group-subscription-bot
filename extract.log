@@ -306,3 +306,11 @@ telethon.errors.common.MultiError: ([None, None, None, FloodWaitError('A wait of
 DEBUG: 02/20/2022 11:54:29 The server returned: 'b'{"ok":true,"result":[]}''
 DEBUG: 02/20/2022 11:54:29 Received 0 new updates
 DEBUG: 02/20/2022 11:54:29 Task complete
+INFO: 06/27/2022 01:54:25 Started polling.
+INFO: 06/27/2022 01:57:51 Started polling.
+INFO: 06/27/2022 01:58:26 Started polling.
+INFO: 06/27/2022 02:10:32 KeyboardInterrupt received.
+INFO: 06/27/2022 02:10:32 Stopped polling.
+INFO: 06/27/2022 02:10:42 Started polling.
+INFO: 06/27/2022 02:12:14 KeyboardInterrupt received.
+INFO: 06/27/2022 02:12:14 Stopped polling.

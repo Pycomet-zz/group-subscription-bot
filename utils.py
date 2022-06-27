@@ -80,16 +80,16 @@ def buy_plan():
     "Create Session & Return Url"
 
     result = stripe.checkout.Session.create(
-        success_url="https://example.com/success",
-        cancel_url="https://example.com/cancel",
+        success_url=f"{SERVER_URL}/success",
+        cancel_url=f"{SERVER_URL}/cancel",
         payment_method_types=["card"],
         line_items=[
         {
-            "price": "price_1IeYKWC4t9kgnfYikDLPO8fQ",
+            "price": "plan_LPAfyb3ATk04wE",
             "quantity": 1,
         },
         ],
-        mode="payment",
+        mode="subscription",
     )
 
     return result['url'], result['id']

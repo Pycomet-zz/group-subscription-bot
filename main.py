@@ -1,3 +1,4 @@
+from flask import render_template
 from config import *
 from handlers import *
 import os
@@ -13,6 +14,15 @@ def webhook():
     bot.remove_webhook()
     bot.set_webhook(url=SERVER_URL + '/' + TOKEN)
     return "Application running!", 200
+
+
+@app.route("/success")
+def success():
+    render_template('pages/success.html')
+
+@app.route("/cancel")
+def cancel():
+    render_template('pages/cancel.html')
 
 
 if __name__ == "__main__":
