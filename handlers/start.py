@@ -2,20 +2,18 @@ from config import *
 from utils import *
 
 
-@bot.message_handler(commands=['start'])
+@bot.message_handler(commands=["start"])
 def startbot(msg):
     # import pdb; pdb.set_trace()
     user.id = msg.from_user.id
     "Ignites the bot application to take action"
 
-    bot.reply_to(
-        msg,
-        f"Hey {msg.from_user.first_name}"
-    )
-
+    bot.reply_to(msg, f"Hey {msg.from_user.first_name}")
 
     keyboard = types.InlineKeyboardMarkup(row_width=1)
-    a = types.InlineKeyboardButton(text="Standard Plan - $10/month", callback_data="subscribe")
+    a = types.InlineKeyboardButton(
+        text="Standard Plan - $10/month", callback_data="subscribe"
+    )
     keyboard.add(a)
 
     bot.send_message(
@@ -26,9 +24,9 @@ def startbot(msg):
 Please select your subscription plan:
         """,
         parse_mode="html",
-        reply_markup=keyboard
+        reply_markup=keyboard,
     )
-    
+
 
 @bot.message_handler(regexp="^Back")
 def startbotn(msg):
@@ -59,7 +57,7 @@ Make Your Payment Here To Receive Subscription Pass
     
 You have 15 seconds before this url disappears
             """,
-            parse_mode='html'
+            parse_mode="html",
         )
 
     else:
