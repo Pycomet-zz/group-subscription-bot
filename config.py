@@ -5,7 +5,7 @@ import csv
 import stripe
 import pyshorteners
 from flask import Flask, request
-from flask_apscheduler import APScheduler
+# from flask_apscheduler import APScheduler
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import InviteToChannelRequest
 from telethon.tl.functions.messages import DeleteChatUserRequest
@@ -57,7 +57,7 @@ fieldnames = ['First Name', 'Last Name', 'Username', 'User Id', 'Joined Days Cou
 class Config:
     SCHEDULER_API_ENABLED = True
 
-scheduler = APScheduler()
+# scheduler = APScheduler()
 
 
 
@@ -69,6 +69,6 @@ shortener = pyshorteners.Shortener()
 bot = telebot.TeleBot(TOKEN)
 app = Flask(__name__)
 app.config.from_object(Config())
-scheduler.init_app(app)
-scheduler.start()
+# scheduler.init_app(app)
+# scheduler.start()
  
