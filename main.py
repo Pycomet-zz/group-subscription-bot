@@ -18,11 +18,11 @@ def webhook():
 
 @app.route("/success")
 def success():
-    render_template('pages/success.html')
+    return render_template('pages/success.html')
 
 @app.route("/cancel")
 def cancel():
-    render_template('pages/cancel.html')
+    return render_template('pages/cancel.html')
 
 
 if __name__ == "__main__":
