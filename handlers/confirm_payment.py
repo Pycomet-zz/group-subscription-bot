@@ -9,7 +9,9 @@ def validatePayment(msg):
     # Please provide a payment Id
     question = bot.send_message(
         msg.from_user.id,
-        "To confirm your subscription, please provide your <b>Payment ID</b>",
+        ts.translate(
+            "To confirm your subscription, please provide your <b>Payment ID</b>", "es"
+        ),
         parse_mode="html",
     )
     bot.register_next_step_handler(question, check_payment_id)
@@ -24,17 +26,22 @@ def check_payment_id(msg):
     if status == True:
         keyboard = types.InlineKeyboardMarkup(row_width=1)
         a = types.InlineKeyboardButton(
-            text="Join VIP Divine Chat Group", callback_url="#"
+            text=ts.translate("Join VIP Divine Chat Group", "es"), callback_url="#"
         )
         keyboard.add(a)
 
         bot.send_message(
-            msg.from_user.id, "✅ You are a validate subscriber", reply_markup=keyboard
+            msg.from_user.id,
+            ts.translate("✅ You are a validate subscriber", "es"),
+            reply_markup=keyboard,
         )
 
     else:
         bot.send_message(
             msg.from_user.id,
-            "You are not a subscribe! \n Please make sure you have paid for this month.",
+            ts.translate(
+                "You are not a subscribe! \n Please make sure you have paid for this month.",
+                "es",
+            ),
             parse_mode="html",
         )

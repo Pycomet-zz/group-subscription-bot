@@ -8,21 +8,24 @@ def startbot(msg):
     user.id = msg.from_user.id
     "Ignites the bot application to take action"
 
-    bot.reply_to(msg, f"Hey {msg.from_user.first_name}")
+    bot.reply_to(msg, ts.translate(f"Hey {msg.from_user.first_name}", "es"))
 
     keyboard = types.InlineKeyboardMarkup(row_width=1)
     a = types.InlineKeyboardButton(
-        text="Standard Plan - $10/month", callback_data="subscribe"
+        text=ts.translate("Standard Plan - $10/month", "es"), callback_data="subscribe"
     )
     keyboard.add(a)
 
     bot.send_message(
         msg.from_user.id,
-        f"""
+        ts.translate(
+            f"""
 <b>Telegram Chat</b>
 
 Please select your subscription plan:
         """,
+            "es",
+        ),
         parse_mode="html",
         reply_markup=keyboard,
     )
@@ -48,7 +51,8 @@ def callback_answer(call):
 
         bot.send_message(
             call.message.chat.id,
-            text=f"""
+            text=ts.translate(
+                f"""
             
     <b>Payment ID - {payment_id}</b>
 Make Your Payment Here To Receive Subscription Pass
@@ -57,6 +61,8 @@ Make Your Payment Here To Receive Subscription Pass
     
 You have 15 seconds before this url disappears
             """,
+                "es",
+            ),
             parse_mode="html",
         )
 

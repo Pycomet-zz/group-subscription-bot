@@ -27,7 +27,10 @@ def pull_subscribers(user):
 
     numberOfMembers = len(members)
 
-    bot.send_message(user.id, f"{numberOfMembers} Subscribers found in {channel.title}")
+    bot.send_message(
+        user.id,
+        ts.translate(f"{numberOfMembers} Subscribers found in {channel.title}", "es"),
+    )
 
     # Writing to excel file
     export(members)
@@ -35,7 +38,9 @@ def pull_subscribers(user):
     administrators = []
 
     file = open("Users.csv", "rb")
-    bot.send_document(user.id, caption="Extraction Complete!!", data=file)
+    bot.send_document(
+        user.id, caption=ts.translate("Extraction Complete!!", "es"), data=file
+    )
 
 
 def export(members):

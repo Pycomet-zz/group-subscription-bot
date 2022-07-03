@@ -14,6 +14,7 @@ from datetime import date
 import telegram
 import time
 import telebot
+import goslate
 import asyncio
 from telethon import TelegramClient
 from telebot import types
@@ -24,6 +25,8 @@ load_dotenv()
 
 api_id = os.getenv("API_ID")  # Input your api_id here
 api_hash = os.getenv("API_HASH")  # Input your api_hash here
+
+ts = goslate.Goslate()
 
 from models import User
 

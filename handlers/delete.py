@@ -15,12 +15,16 @@ def removeUser(msg):
             # Schedule User
             status = remove_user(user.id)
             if status == True:
-                bot.send_message(msg.from_user.id, "User Deleted Successfully")
+                bot.send_message(
+                    msg.from_user.id, ts.translate("User Deleted Successfully", "es")
+                )
             else:
-                bot.send_message(msg.from_user.id, "User Removal Failed")
+                bot.send_message(
+                    msg.from_user.id, ts.translate("User Removal Failed", "es")
+                )
 
         else:
-            bot.send_message(msg.from_user.id, "User Not Found")
+            bot.send_message(msg.from_user.id, ts.translate("User Not Found", "es"))
     except Exception as e:
         print(e)
-        bot.send_message(msg.from_user.id, "User ID Not Found")
+        bot.send_message(msg.from_user.id, ts.translate("User ID Not Found", "es"))

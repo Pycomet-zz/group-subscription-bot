@@ -15,9 +15,11 @@ def addUser(msg):
         # Schedule User
         status = add_user(msg.from_user.id)
         if status == True:
-            bot.send_message(msg.from_user.id, "User Invited Successfully")
+            bot.send_message(
+                msg.from_user.id, ts.translate("User Invited Successfully", "es")
+            )
         else:
-            bot.send_message(msg.from_user.id, "User Adding Failed")
+            bot.send_message(msg.from_user.id, ts.translate("User Adding Failed", "es"))
 
     else:
-        bot.send_message(msg.from_user.id, "User Not Found")
+        bot.send_message(msg.from_user.id, ts.translate("User Not Found", "es"))
