@@ -12,7 +12,7 @@ def startbot(msg):
 
     keyboard = types.InlineKeyboardMarkup(row_width=1)
     a = types.InlineKeyboardButton(
-        text=ts.translate("Standard Plan - $10/month", "es"), callback_data="subscribe"
+        text=ts.translate("Plan Mensual - $10/month", "es"), callback_data="subscribe"
     )
     keyboard.add(a)
 
