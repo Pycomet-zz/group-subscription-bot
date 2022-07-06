@@ -76,7 +76,7 @@ def buy_plan():
         payment_method_types=["card"],
         line_items=[
             {
-                "price": "plan_LPAfyb3ATk04wE",
+                "price": "price_1KjTMnGLtJ2p561sFsXH48HW",
                 "quantity": 1,
             },
         ],
