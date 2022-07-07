@@ -1,1 +1,1 @@
-web: python main.py --log-file -
+web: python3 main.py --log-file -

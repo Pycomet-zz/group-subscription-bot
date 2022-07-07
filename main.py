@@ -32,7 +32,7 @@ def cancel():
 if __name__ == "__main__":
 
     if DEBUG != True:
-        app.run(host="0.0.0.0", threaded=True, port=int(os.environ.get("PORT", 5050)))
+        app.run(host="0.0.0.0", threaded=True, port=int(os.environ.get("PORT", 5000)))
     else:
         bot.remove_webhook()
         print("Bot polling!")
